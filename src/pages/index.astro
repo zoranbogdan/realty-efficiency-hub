@@ -1,17 +1,28 @@
 ---
+import MainLayout from "../layouts/MainLayout.astro";
 
+const title = "Realty Efficiency Hub";
+const description = "AI & Automation for Modern Real Estate Teams";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<MainLayout title={title} description={description}>
+  <section style="text-align:center; padding: 40px 20px; max-width: 800px; margin: 0 auto;">
+    <h1 style="font-size: 44px; margin-bottom: 20px;">
+      AI & Automation for Modern Real Estate Teams
+    </h1>
+
+    <p style="font-size: 20px; color: #475569; line-height: 1.6;">
+      Discover the tools, workflows, and automation systems that help real
+      estate professionals save time and close more deals.
+    </p>
+
+    <div style="margin-top: 30px;">
+      <a
+        href="/blog"
+        style="background:#2563eb; color:white; padding:14px 26px; border-radius:8px; text-decoration:none; font-weight:600;"
+      >
+        Explore the Blog
+      </a>
+    </div>
+  </section>
+</MainLayout>
