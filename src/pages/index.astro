@@ -1,41 +1,61 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
+import { getCollection } from "astro:content";
 
 const title = "Realty Efficiency Hub";
 const description = "AI & Automation for Modern Real Estate Teams";
+
+const posts = await getCollection("blog");
+
+const latestPosts = posts
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
+  .slice(0, 3);
 ---
 
 <MainLayout title={title} description={description}>
-  <section style="text-align:center; padding: 40px 20px; max-width: 800px; margin: 0 auto;">
-    <h1 style="font-size: 44px; margin-bottom: 20px;">
-      AI & Automation for Modern Real Estate Teams
-    </h1>
 
-    <p style="font-size: 20px; color: #475569; line-height: 1.6;">
-      Discover the tools, workflows, and automation systems that help real
-      estate professionals save time and close more deals.
-    </p>
+<section style="text-align:center; padding: 40px 20px; max-width: 800px; margin: 0 auto;">
+  <h1 style="font-size: 44px; margin-bottom: 20px;">
+    AI & Automation for Modern Real Estate Teams
+  </h1>
 
-    <div style="margin-top: 30px;">
-      <a
-        href="/blog"
-        style="background:#2563eb; color:white; padding:14px 26px; border-radius:8px; text-decoration:none; font-weight:600;"
-      >
-        Explore the Blog
-      </a>
-    </div>
-  </section>
+  <p style="font-size: 20px; color: #475569; line-height: 1.6;">
+    Discover the tools, workflows, and automation systems that help real
+    estate professionals save time and close more deals.
+  </p>
 
-      <section style="margin-top:80px;">
-      <h2 style="font-size:32px;margin-bottom:20px;">Latest Articles</h2>
+  <div style="margin-top: 30px;">
+    <a
+      href="/blog"
+      style="background:#2563eb; color:white; padding:14px 26px; border-radius:8px; text-decoration:none; font-weight:600;"
+    >
+      Explore the Blog
+    </a>
+  </div>
+</section>
 
-      <ul style="list-style:none;padding:0;">
-        <li style="margin-bottom:15px;">
-          <a href="/blog/real-estate-listing-description-prompts" style="text-decoration:none;color:#2563eb;font-size:18px;">
-            Real Estate Listing Description Prompts
+
+<section style="margin-top:80px; max-width:900px; margin-left:auto; margin-right:auto;">
+  <h2 style="font-size:32px;margin-bottom:20px;">Latest Articles</h2>
+
+  <div style="display:grid; gap:20px;">
+    {latestPosts.map((post) => (
+      <article style="background:white; border:1px solid #e2e8f0; border-radius:12px; padding:24px;">
+        <h3 style="margin:0 0 10px 0;">
+          <a
+            href={`/blog/${post.slug}`}
+            style="text-decoration:none; color:#1e293b;"
+          >
+            {post.data.title}
           </a>
-        </li>
-      </ul>
-    </section>
+        </h3>
+
+        <p style="margin:0; color:#475569; line-height:1.6;">
+          {post.data.description}
+        </p>
+      </article>
+    ))}
+  </div>
+</section>
 
 </MainLayout>
