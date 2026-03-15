@@ -38,6 +38,7 @@ const { title, description } = Astro.props;
         background: color-mix(in srgb, #ffffff 86%, transparent);
         border-bottom: 1px solid var(--line);
         padding: 14px 24px;
+        transition: transform 0.22s ease;
       }
 
       nav {
@@ -46,6 +47,7 @@ const { title, description } = Astro.props;
         align-items: center;
         max-width: 1100px;
         margin: auto;
+        gap: 14px;
       }
 
       nav a {
@@ -67,6 +69,14 @@ const { title, description } = Astro.props;
         font-weight: 800;
         font-size: 18px;
         letter-spacing: 0.01em;
+        margin-left: 0;
+      }
+
+      .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 6px;
       }
 
       main {
@@ -77,13 +87,53 @@ const { title, description } = Astro.props;
 
       @media (max-width: 760px) {
         nav {
-          flex-direction: column;
-          align-items: flex-start;
-          gap: 10px;
+          display: grid;
+          grid-template-columns: 1fr;
+          align-items: stretch;
+          gap: 12px;
         }
 
         header {
-          padding: 12px 14px;
+          padding: 12px 12px;
+        }
+
+        .brand {
+          display: inline-block;
+          font-size: 16px;
+          padding: 10px 2px;
+        }
+
+        .nav-links {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 8px;
+          width: 100%;
+        }
+
+        .nav-links a {
+          margin-left: 0;
+          text-align: center;
+          font-size: 16px;
+          padding: 12px 8px;
+          min-height: 44px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid #dbe4ee;
+          background: #ffffff;
+          border-radius: 10px;
+        }
+
+        .nav-links a:hover {
+          border-color: #93c5fd;
+        }
+
+        .nav-links a:not(.mobile-primary) {
+          display: none;
+        }
+
+        header.mobile-hidden {
+          transform: translateY(-110%);
         }
 
         main {
@@ -100,12 +150,12 @@ const { title, description } = Astro.props;
           <a href="/" class="brand">Realty Efficiency Hub</a>
         </div>
 
-            <div>
-              <a href="/start-here">Start Here</a>
-              <a href="/ai-prompts">AI Prompts</a>
-              <a href="/automation-workflows">Automation Workflows</a>
-              <a href="/about">About</a>
-              <a href="/blog">Blog</a>
+            <div class="nav-links">
+              <a href="/start-here" class="mobile-primary">Start Here</a>
+              <a href="/ai-prompts" class="desktop-only">AI Prompts</a>
+              <a href="/automation-workflows" class="desktop-only">Automation Workflows</a>
+              <a href="/about" class="desktop-only">About</a>
+              <a href="/blog" class="desktop-only">Blog</a>
             </div>
       </nav>
     </header>
@@ -113,5 +163,32 @@ const { title, description } = Astro.props;
     <main>
       <slot />
     </main>
+
+    <script>
+      const header = document.querySelector("header");
+      let lastY = window.scrollY;
+
+      const onScroll = () => {
+        if (!header || window.innerWidth > 760) return;
+
+        const y = window.scrollY;
+        const scrollingDown = y > lastY;
+
+        if (y < 40 || !scrollingDown) {
+          header.classList.remove("mobile-hidden");
+        } else if (scrollingDown && y > 80) {
+          header.classList.add("mobile-hidden");
+        }
+
+        lastY = y;
+      };
+
+      window.addEventListener("scroll", onScroll, { passive: true });
+      window.addEventListener("resize", () => {
+        if (window.innerWidth > 760) {
+          header?.classList.remove("mobile-hidden");
+        }
+      });
+    </script>
   </body>
 </html>
