@@ -1,0 +1,158 @@
+---
+import { getCollection } from "astro:content";
+import MainLayout from "../layouts/MainLayout.astro";
+import ContentTypeBadge from "./ContentTypeBadge.astro";
+import { contentTypeMeta, type ContentType } from "../lib/content-types";
+
+interface Props {
+  contentType: ContentType;
+  title: string;
+  description: string;
+}
+
+const { contentType, title, description } = Astro.props as Props;
+const cleanSlug = (id: string) => id.replace(/\.md$/, "");
+
+const posts = (await getCollection("blog"))
+  .filter((post) => post.data.contentType === contentType)
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+---
+
+<MainLayout title={title} description={description}>
+  <section class="hub-shell">
+    <div class="title-row">
+      <ContentTypeBadge type={contentType} />
+      <p class="best-for">{contentTypeMeta[contentType].bestFor}</p>
+    </div>
+
+    <h1>{title}</h1>
+    <p class="intro">{description}</p>
+
+    {posts.length === 0 ? (
+      <div class="empty-card">
+        <h2>No Articles Yet</h2>
+        <p>
+          This content type is set up and ready. Add articles with
+          <code>contentType: "{contentType}"</code> in frontmatter to populate this page.
+        </p>
+      </div>
+    ) : (
+      <div class="post-grid">
+        {posts.map((post) => (
+          <article class="post-card">
+            <p class="post-date">
+              {post.data.pubDate.toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}
+            </p>
+
+            <h2>
+              <a href={`/blog/${cleanSlug(post.id)}`}>{post.data.title}</a>
+            </h2>
+
+            <p class="post-cluster">{post.data.cluster}</p>
+            <p class="post-description">{post.data.description}</p>
+          </article>
+        ))}
+      </div>
+    )}
+  </section>
+
+  <style>
+    .hub-shell {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .title-row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .best-for {
+      margin: 0;
+      font-size: 14px;
+      font-weight: 600;
+      color: #1e40af;
+    }
+
+    h1 {
+      margin: 0 0 12px 0;
+      font-size: 42px;
+      color: #0f172a;
+    }
+
+    .intro {
+      margin: 0 0 24px 0;
+      font-size: 18px;
+      line-height: 1.7;
+      color: #475569;
+    }
+
+    .post-grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .post-card,
+    .empty-card {
+      background: #ffffff;
+      border: 1px solid #dbe4ee;
+      border-radius: 16px;
+      padding: 22px;
+    }
+
+    .post-date {
+      margin: 0 0 8px 0;
+      color: #64748b;
+      font-size: 14px;
+    }
+
+    h2 {
+      margin: 0 0 8px 0;
+      font-size: 26px;
+      line-height: 1.25;
+    }
+
+    h2 a {
+      color: #0f172a;
+      text-decoration: none;
+    }
+
+    h2 a:hover {
+      color: #1d4ed8;
+    }
+
+    .post-cluster {
+      margin: 0 0 8px 0;
+      font-size: 13px;
+      font-weight: 700;
+      color: #0f766e;
+    }
+
+    .post-description {
+      margin: 0;
+      color: #475569;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    .empty-card p {
+      margin: 0;
+      color: #475569;
+      line-height: 1.7;
+    }
+
+    code {
+      background: #eff6ff;
+      color: #1d4ed8;
+      border-radius: 8px;
+      padding: 3px 7px;
+    }
+  </style>
+</MainLayout>

@@ -1,6 +1,10 @@
 ---
 import { getCollection } from "astro:content";
 import MainLayout from "../../layouts/MainLayout.astro";
+import ContentTypeBadge from "../../components/ContentTypeBadge.astro";
+import { contentTypes, contentTypeMeta, type ContentType } from "../../lib/content-types";
+
+const cleanSlug = (id: string) => id.replace(/\.md$/, "");
 
 const posts = await getCollection("blog");
 const sortedPosts = posts.sort(
@@ -8,23 +12,62 @@ const sortedPosts = posts.sort(
 );
 
 const title = "Blog | Realty Efficiency Hub";
-const description = "Articles about AI, automation, and workflows for real estate teams.";
+const description =
+  "Articles about AI prompts, automation workflows, systems, and tools for modern real estate teams.";
+
+const activeTypes = contentTypes.filter((type) =>
+  sortedPosts.some((post) => post.data.contentType === type)
+);
+
+const typeFilters = activeTypes.map((type) => ({
+  value: type,
+  label: contentTypeMeta[type].label,
+}));
+
+const clusterFilters = ["AI Prompts", "Automation Workflows"];
 ---
 
 <MainLayout title={title} description={description}>
-  <section style="max-width: 900px; margin: 0 auto;">
-    <h1 style="font-size: 40px; margin-bottom: 12px;">Blog</h1>
-
-    <p style="font-size: 18px; color: #475569; margin-bottom: 32px;">
-      Insights, tools, and practical automation ideas for modern real estate teams.
+  <section class="blog-shell">
+    <h1>Blog</h1>
+    <p class="intro">
+      Browse by content type so each article matches what you need right now:
+      prompts, workflows, systems, comparisons, guides, or reviews.
     </p>
 
-    <div style="display: grid; gap: 20px;">
+    <div class="filters">
+      <div class="filter-group">
+        <span class="filter-label">Type</span>
+        <button class="chip active" data-filter-type="all">All Types</button>
+        {typeFilters.map((filter) => (
+          <button class="chip" data-filter-type={filter.value}>{filter.label}</button>
+        ))}
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">Pillar</span>
+        <button class="chip active" data-filter-cluster="all">All Pillars</button>
+        {clusterFilters.map((cluster) => (
+          <button class="chip" data-filter-cluster={cluster}>{cluster}</button>
+        ))}
+      </div>
+    </div>
+
+    <p id="results-count" class="results-count"></p>
+
+    <div id="post-grid" class="post-grid">
       {sortedPosts.map((post) => (
         <article
-          style="background:white; border:1px solid #e2e8f0; border-radius:12px; padding:24px;"
+          class="post-card"
+          data-type={post.data.contentType}
+          data-cluster={post.data.cluster}
         >
-          <p style="font-size: 14px; color: #64748b; margin: 0 0 10px 0;">
+          <div class="card-top">
+            <ContentTypeBadge type={post.data.contentType as ContentType} compact={true} />
+            <span class="post-cluster">{post.data.cluster}</span>
+          </div>
+
+          <p class="post-date">
             {post.data.pubDate.toLocaleDateString("en-US", {
               year: "numeric",
               month: "long",
@@ -32,20 +75,234 @@ const description = "Articles about AI, automation, and workflows for real estat
             })}
           </p>
 
-          <h2 style="margin: 0 0 12px 0;">
-            <a
-              href={`/blog/${post.slug}`}
-              style="color:#1e293b; text-decoration:none;"
-            >
-              {post.data.title}
-            </a>
+          <h2>
+            <a href={`/blog/${cleanSlug(post.id)}`}>{post.data.title}</a>
           </h2>
 
-          <p style="margin: 0; color:#475569; line-height:1.7;">
-            {post.data.description}
-          </p>
+          <p class="type-hint">{contentTypeMeta[post.data.contentType as ContentType].bestFor}</p>
+
+          <p class="post-description">{post.data.description}</p>
         </article>
       ))}
     </div>
   </section>
+
+  <script>
+    const cards = Array.from(document.querySelectorAll(".post-card"));
+    const typeButtons = Array.from(document.querySelectorAll("[data-filter-type]"));
+    const clusterButtons = Array.from(document.querySelectorAll("[data-filter-cluster]"));
+    const countEl = document.getElementById("results-count");
+
+    let activeType = "all";
+    let activeCluster = "all";
+
+    const allowedTypes = new Set(typeButtons.map((button) => button.getAttribute("data-filter-type")));
+    const allowedClusters = new Set(
+      clusterButtons.map((button) => button.getAttribute("data-filter-cluster"))
+    );
+
+    const setActive = (buttons, key, value) => {
+      buttons.forEach((button) => {
+        button.classList.toggle("active", button.getAttribute(key) === value);
+      });
+    };
+
+    const updateUrl = () => {
+      const params = new URLSearchParams(window.location.search);
+
+      if (activeType === "all") params.delete("type");
+      else params.set("type", activeType);
+
+      if (activeCluster === "all") params.delete("pillar");
+      else params.set("pillar", activeCluster);
+
+      const qs = params.toString();
+      const next = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+      window.history.replaceState({}, "", next);
+    };
+
+    const applyQueryFilters = () => {
+      const params = new URLSearchParams(window.location.search);
+      const qType = params.get("type");
+      const qCluster = params.get("pillar");
+
+      if (qType && allowedTypes.has(qType)) {
+        activeType = qType;
+      }
+
+      if (qCluster && allowedClusters.has(qCluster)) {
+        activeCluster = qCluster;
+      }
+
+      setActive(typeButtons, "data-filter-type", activeType);
+      setActive(clusterButtons, "data-filter-cluster", activeCluster);
+    };
+
+    const applyFilters = () => {
+      let visible = 0;
+
+      cards.forEach((card) => {
+        const typeMatch = activeType === "all" || card.dataset.type === activeType;
+        const clusterMatch = activeCluster === "all" || card.dataset.cluster === activeCluster;
+        const show = typeMatch && clusterMatch;
+        card.style.display = show ? "block" : "none";
+        if (show) visible += 1;
+      });
+
+      if (countEl) {
+        countEl.textContent = `${visible} article${visible === 1 ? "" : "s"} shown`;
+      }
+    };
+
+    typeButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        activeType = button.getAttribute("data-filter-type") || "all";
+        setActive(typeButtons, "data-filter-type", activeType);
+        applyFilters();
+        updateUrl();
+      });
+    });
+
+    clusterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        activeCluster = button.getAttribute("data-filter-cluster") || "all";
+        setActive(clusterButtons, "data-filter-cluster", activeCluster);
+        applyFilters();
+        updateUrl();
+      });
+    });
+
+    applyQueryFilters();
+    applyFilters();
+  </script>
+
+  <style>
+    .blog-shell {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin: 0 0 12px 0;
+      color: #0f172a;
+    }
+
+    .intro {
+      font-size: 18px;
+      color: #475569;
+      margin: 0 0 24px 0;
+      line-height: 1.7;
+    }
+
+    .filters {
+      display: grid;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+
+    .filter-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .filter-label {
+      font-size: 13px;
+      font-weight: 700;
+      color: #334155;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-right: 4px;
+    }
+
+    .chip {
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+      color: #1e293b;
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .chip.active {
+      border-color: #2563eb;
+      background: #eff6ff;
+      color: #1d4ed8;
+    }
+
+    .results-count {
+      margin: 0 0 18px 0;
+      font-size: 14px;
+      color: #64748b;
+    }
+
+    .post-grid {
+      display: grid;
+      gap: 20px;
+    }
+
+    .post-card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 24px;
+    }
+
+    .card-top {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+
+    .post-cluster {
+      font-size: 12px;
+      font-weight: 700;
+      color: #0f766e;
+      background: #ecfeff;
+      border: 1px solid #99f6e4;
+      border-radius: 999px;
+      padding: 4px 8px;
+    }
+
+    .post-date {
+      margin: 0 0 8px 0;
+      font-size: 14px;
+      color: #64748b;
+    }
+
+    h2 {
+      margin: 0 0 10px 0;
+      font-size: 28px;
+      line-height: 1.2;
+    }
+
+    h2 a {
+      color: #0f172a;
+      text-decoration: none;
+    }
+
+    h2 a:hover {
+      color: #1d4ed8;
+    }
+
+    .type-hint {
+      margin: 0 0 8px 0;
+      font-size: 14px;
+      color: #1e40af;
+      font-weight: 600;
+    }
+
+    .post-description {
+      margin: 0;
+      color: #475569;
+      line-height: 1.7;
+      font-size: 17px;
+    }
+  </style>
 </MainLayout>

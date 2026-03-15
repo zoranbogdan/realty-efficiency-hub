@@ -1,11 +1,27 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import { getCollection } from "astro:content";
+import ContentTypeBadge from "../components/ContentTypeBadge.astro";
+import { contentTypes, contentTypeMeta, type ContentType } from "../lib/content-types";
 
 const title = "Realty Efficiency Hub";
 const description = "AI & Automation for Modern Real Estate Teams";
 
+const cleanSlug = (id: string) => id.replace(/\.md$/, "");
+
 const posts = await getCollection("blog");
+const activeTypes = contentTypes.filter((type) =>
+  posts.some((post) => post.data.contentType === type)
+);
+
+const typePathMap: Record<ContentType, string> = {
+  "prompt-guide": "/prompt-guides",
+  "workflow-guide": "/workflow-guides",
+  "system-guide": "/system-guides",
+  "comparison-article": "/comparison-articles",
+  guide: "/guides",
+  "tool-review": "/tool-reviews",
+};
 
 const latestPosts = posts
   .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
@@ -34,6 +50,20 @@ const latestPosts = posts
   </div>
 </section>
 
+<section style="margin-top:28px; max-width:900px; margin-left:auto; margin-right:auto;">
+  <h2 style="font-size:28px; margin-bottom:16px;">Navigate by Content Type</h2>
+  <div style="display:grid; gap:12px; grid-template-columns: repeat(auto-fit,minmax(220px,1fr));">
+    {activeTypes.map((type) => (
+      <a
+        href={typePathMap[type]}
+        style="background:white; border:1px solid #e2e8f0; border-radius:12px; padding:16px; text-decoration:none; color:#1e293b;"
+      >
+        {contentTypeMeta[type].label}
+      </a>
+    ))}
+  </div>
+</section>
+
 
 <section style="margin-top:80px; max-width:900px; margin-left:auto; margin-right:auto;">
   <h2 style="font-size:32px;margin-bottom:20px;">Latest Articles</h2>
@@ -41,9 +71,12 @@ const latestPosts = posts
   <div style="display:grid; gap:20px;">
     {latestPosts.map((post) => (
       <article style="background:white; border:1px solid #e2e8f0; border-radius:12px; padding:24px;">
+        <div style="margin-bottom:8px;">
+          <ContentTypeBadge type={post.data.contentType as ContentType} compact={true} />
+        </div>
         <h3 style="margin:0 0 10px 0;">
           <a
-            href={`/blog/${post.slug}`}
+            href={`/blog/${cleanSlug(post.id)}`}
             style="text-decoration:none; color:#1e293b;"
           >
             {post.data.title}

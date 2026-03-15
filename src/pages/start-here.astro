@@ -1,0 +1,215 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import { getCollection } from "astro:content";
+import ContentTypeBadge from "../components/ContentTypeBadge.astro";
+import type { ContentType } from "../lib/content-types";
+
+const paths = [
+  {
+    type: "prompt-guide",
+    title: "Prompt Guides",
+    href: "/prompt-guides",
+    description: "Use ready prompts immediately for content, outreach, and communication tasks.",
+    fit: "Best when you need output now.",
+  },
+  {
+    type: "workflow-guide",
+    title: "Workflow Guides",
+    href: "/workflow-guides",
+    description: "Implement repeatable operations across your CRM, follow-up, and team handoffs.",
+    fit: "Best when you need process reliability.",
+  },
+  {
+    type: "system-guide",
+    title: "System Guides",
+    href: "/system-guides",
+    description: "Design full systems with architecture, ownership, and governance.",
+    fit: "Best when you are building at scale.",
+  },
+  {
+    type: "comparison-article",
+    title: "Comparison Articles",
+    href: "/comparison-articles",
+    description: "Compare options and choose the right approach or tool with clear tradeoffs.",
+    fit: "Best when you are deciding between alternatives.",
+  },
+  {
+    type: "guide",
+    title: "Guides",
+    href: "/guides",
+    description: "Learn foundational strategy and practical execution frameworks.",
+    fit: "Best when you want broad understanding first.",
+  },
+  {
+    type: "tool-review",
+    title: "Tool Reviews",
+    href: "/tool-reviews",
+    description: "Evaluate software and platforms based on fit, limits, and implementation effort.",
+    fit: "Best when you are selecting software.",
+  },
+] satisfies Array<{
+  type: ContentType;
+  title: string;
+  href: string;
+  description: string;
+  fit: string;
+}>;
+
+const posts = await getCollection("blog");
+const activeTypes = new Set(posts.map((post) => post.data.contentType as ContentType));
+const activePaths = paths.filter((item) => activeTypes.has(item.type));
+---
+
+<MainLayout
+  title="Start Here | Realty Efficiency Hub"
+  description="Choose the best content type based on your current goal: prompts, workflows, systems, comparisons, guides, or tool reviews."
+>
+  <section class="start-shell">
+    <h1>Start Here</h1>
+    <p class="intro">
+      Pick the content type that matches your goal so you can move faster. Empty
+      verticals stay hidden and appear automatically once content is published.
+    </p>
+
+    <div class="grid">
+      {activePaths.map((item) => (
+        <a class="card" href={item.href}>
+          <div class="badge-wrap">
+            <ContentTypeBadge type={item.type} compact={true} />
+          </div>
+          <h2>{item.title}</h2>
+          <p>{item.description}</p>
+          <p class="fit">{item.fit}</p>
+        </a>
+      ))}
+    </div>
+
+    <section class="legend">
+      <h2>Content Type Legend</h2>
+      <p class="legend-intro">
+        Each article is assigned one primary type so you know what format and depth to expect before opening it.
+      </p>
+
+      <div class="legend-grid">
+        {activePaths.map((item) => (
+          <article class="legend-card">
+            <div class="legend-head">
+              <ContentTypeBadge type={item.type} />
+              <a href={item.href}>{item.title}</a>
+            </div>
+            <p>{item.description}</p>
+            <p class="fit">{item.fit}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+  </section>
+
+  <style>
+    .start-shell {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0 0 12px 0;
+      font-size: 42px;
+      color: #0f172a;
+    }
+
+    .intro {
+      margin: 0 0 24px 0;
+      font-size: 18px;
+      line-height: 1.7;
+      color: #475569;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      display: block;
+      text-decoration: none;
+      background: #ffffff;
+      border: 1px solid #dbe4ee;
+      border-radius: 16px;
+      padding: 20px;
+      color: #0f172a;
+      transition: border-color 0.15s ease;
+    }
+
+    .card:hover {
+      border-color: #93c5fd;
+    }
+
+    .badge-wrap {
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      margin: 0 0 8px 0;
+      font-size: 24px;
+    }
+
+    p {
+      margin: 0 0 8px 0;
+      line-height: 1.6;
+      color: #475569;
+    }
+
+    .fit {
+      margin: 0;
+      font-size: 14px;
+      font-weight: 700;
+      color: #1d4ed8;
+    }
+
+    .legend {
+      margin-top: 34px;
+      border-top: 1px solid #e2e8f0;
+      padding-top: 24px;
+    }
+
+    .legend h2 {
+      font-size: 30px;
+    }
+
+    .legend-intro {
+      margin-bottom: 16px;
+    }
+
+    .legend-grid {
+      display: grid;
+      gap: 12px;
+    }
+
+    .legend-card {
+      background: #ffffff;
+      border: 1px solid #dbe4ee;
+      border-radius: 14px;
+      padding: 16px;
+    }
+
+    .legend-head {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+
+    .legend-head a {
+      color: #0f172a;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    .legend-head a:hover {
+      color: #1d4ed8;
+    }
+  </style>
+</MainLayout>

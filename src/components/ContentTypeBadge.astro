@@ -1,0 +1,35 @@
+---
+import type { ContentType } from "../lib/content-types";
+import { contentTypeMeta } from "../lib/content-types";
+
+interface Props {
+  type: ContentType;
+  compact?: boolean;
+}
+
+const { type, compact = false } = Astro.props as Props;
+const meta = contentTypeMeta[type];
+---
+
+<span class:list={["type-badge", compact && "compact"]}>
+  {compact ? meta.short : meta.label}
+</span>
+
+<style>
+  .type-badge {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    border-radius: 999px;
+    border: 1px solid #bfdbfe;
+    background: #eff6ff;
+    color: #1d4ed8;
+    padding: 6px 10px;
+  }
+
+  .type-badge.compact {
+    padding: 4px 8px;
+    font-size: 11px;
+  }
+</style>

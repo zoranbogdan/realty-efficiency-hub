@@ -1,9 +1,10 @@
 ---
 title: "25 Real Estate Email Prompts for ChatGPT (Copy & Paste)"
 description: "25 practical ChatGPT prompts real estate agents can use to write better client emails, listing emails, nurture sequences, and follow-ups faster."
-pubDate: 2026-02-27
+pubDate: 2026-01-30
 author: "Realty Efficiency Hub"
 cluster: "AI Prompts"
+contentType: "prompt-guide"
 keyword: "real estate email prompts"
 tags:
   - real-estate
@@ -501,9 +502,10 @@ No. AI can save time, but the final email should always be reviewed for accuracy
 
 ## Related Articles
 
+- [AI Prompts Hub](/ai-prompts)
 - [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts)
 - [Open House Follow-Up Prompts](/blog/open-house-follow-up-prompts)
 - [Social Media Prompts for Realtors](/blog/social-media-prompts-realtors)
+- [Automating Realtor Email Follow-Ups](/blog/realtor-email-automation)
 
 ---
-

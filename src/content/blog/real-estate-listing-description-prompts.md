@@ -1,9 +1,10 @@
 ---
 title: "25 High-Performance Real Estate Listing Prompts for ChatGPT"
 description: "25 expert-engineered ChatGPT prompts for real estate agents to generate high-converting property descriptions, social media content, and marketing bundles."
-pubDate: 2026-02-20
+pubDate: 2026-01-27
 author: "Realty Efficiency Hub"
 cluster: "AI Prompts"
+contentType: "prompt-guide"
 keyword: "real estate listing prompts"
 tags:
   - real-estate
@@ -685,6 +686,8 @@ Most MLS platforms have a character limit, but a standard effective description 
 
 ## Related Articles
 
+- [AI Prompts Hub](/ai-prompts)
 - [Real Estate Email Prompts](/blog/real-estate-email-prompts)
 - [Social Media Prompts for Realtors](/blog/social-media-prompts-realtors)
 - [Open House Follow-Up Prompts](/blog/open-house-follow-up-prompts)
+- [Property Tour Script Prompts](/blog/property-tour-script-prompts)

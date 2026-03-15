@@ -1,9 +1,10 @@
 ---
 title: "25 Real Estate Marketing Prompts for ChatGPT (Copy & Paste)"
 description: "25 practical ChatGPT prompts real estate agents can use to create better real estate marketing copy, campaign ideas, and promotional content faster."
-pubDate: 2026-03-13
+pubDate: 2026-02-06
 author: "Realty Efficiency Hub"
 cluster: "AI Prompts"
+contentType: "prompt-guide"
 keyword: "real estate marketing prompts"
 tags:
   - real-estate
@@ -450,8 +451,10 @@ No. AI can speed up content creation, but the strategy, targeting, and final jud
 
 ## Related Articles
 
+- [AI Prompts Hub](/ai-prompts)
 - [Social Media Prompts for Realtors](/blog/social-media-prompts-realtors)
 - [Real Estate Email Prompts](/blog/real-estate-email-prompts)
 - [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts)
+- [Automating Realtor Email Follow-Ups](/blog/realtor-email-automation)
 
 ---

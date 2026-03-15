@@ -11,17 +11,33 @@ const { title, description } = Astro.props;
     <link rel="icon" href="/favicon.ico" />
 
     <style>
+      :root {
+        --bg: #f5f7fb;
+        --panel: #ffffff;
+        --text: #0f172a;
+        --muted: #475569;
+        --line: #dbe4ee;
+        --brand: #1d4ed8;
+      }
+
       body {
-        font-family: system-ui, -apple-system, Arial, sans-serif;
+        font-family: "Avenir Next", "Segoe UI", "Inter", system-ui, -apple-system, sans-serif;
         margin: 0;
-        background: #f8fafc;
-        color: #1e293b;
+        background:
+          radial-gradient(1200px 500px at 15% -10%, #dbeafe 0%, transparent 45%),
+          radial-gradient(900px 420px at 85% -8%, #e0f2fe 0%, transparent 45%),
+          var(--bg);
+        color: var(--text);
       }
 
       header {
-        background: white;
-        border-bottom: 1px solid #e2e8f0;
-        padding: 20px 40px;
+        position: sticky;
+        top: 0;
+        z-index: 30;
+        backdrop-filter: blur(8px);
+        background: color-mix(in srgb, #ffffff 86%, transparent);
+        border-bottom: 1px solid var(--line);
+        padding: 14px 24px;
       }
 
       nav {
@@ -34,14 +50,45 @@ const { title, description } = Astro.props;
 
       nav a {
         text-decoration: none;
-        color: #1e293b;
-        margin-left: 20px;
+        color: var(--text);
+        margin-left: 8px;
+        font-weight: 600;
+        font-size: 14px;
+        padding: 8px 10px;
+        border-radius: 9px;
+      }
+
+      nav a:hover {
+        background: #eff6ff;
+        color: var(--brand);
+      }
+
+      .brand {
+        font-weight: 800;
+        font-size: 18px;
+        letter-spacing: 0.01em;
       }
 
       main {
         max-width: 1100px;
         margin: auto;
-        padding: 60px 20px;
+        padding: 48px 20px 64px;
+      }
+
+      @media (max-width: 760px) {
+        nav {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 10px;
+        }
+
+        header {
+          padding: 12px 14px;
+        }
+
+        main {
+          padding-top: 34px;
+        }
       }
     </style>
   </head>
@@ -50,10 +97,13 @@ const { title, description } = Astro.props;
     <header>
       <nav>
         <div>
-          <a href="/"><strong>Realty Efficiency Hub</strong></a>
+          <a href="/" class="brand">Realty Efficiency Hub</a>
         </div>
 
             <div>
+              <a href="/start-here">Start Here</a>
+              <a href="/ai-prompts">AI Prompts</a>
+              <a href="/automation-workflows">Automation Workflows</a>
               <a href="/about">About</a>
               <a href="/blog">Blog</a>
             </div>

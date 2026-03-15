@@ -1,9 +1,10 @@
 ---
 title: "25 Social Media Prompts for Realtors Using ChatGPT (Copy & Paste)"
 description: "25 practical ChatGPT prompts real estate agents can use to create better social media posts, captions, and content ideas faster."
-pubDate: 2026-03-06
+pubDate: 2026-02-03
 author: "Realty Efficiency Hub"
 cluster: "AI Prompts"
+contentType: "prompt-guide"
 keyword: "social media prompts real estate"
 tags:
   - real-estate
@@ -470,8 +471,10 @@ No. AI should be used to generate drafts, but the final post should be reviewed 
 
 ## Related Articles
 
+- [AI Prompts Hub](/ai-prompts)
 - [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts)
 - [Real Estate Email Prompts](/blog/real-estate-email-prompts)
 - [Real Estate Marketing Prompts](/blog/real-estate-marketing-prompts)
+- [Cold Outreach Prompts for Realtors](/blog/cold-outreach-prompts-realtors)
 
 ---

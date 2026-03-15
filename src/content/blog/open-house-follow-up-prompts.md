@@ -1,9 +1,10 @@
 ---
 title: "25 Open House Follow-Up Prompts for ChatGPT (Copy & Paste)"
 description: "25 practical ChatGPT prompts real estate agents can use to write better open house follow-up emails, texts, and buyer messages in minutes."
-pubDate: 2026-03-17
+pubDate: 2026-02-17
 author: "Realty Efficiency Hub"
 cluster: "AI Prompts"
+contentType: "prompt-guide"
 keyword: "open house follow up prompts"
 tags:
   - real-estate
@@ -375,7 +376,9 @@ Yes. AI can generate follow-up emails, texts, and nurture messages when provided
 
 ## Related Articles
 
+- [AI Prompts Hub](/ai-prompts)
 - [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts)
 - [Real Estate Email Prompts](/blog/real-estate-email-prompts)
+- [Open House Lead Automation Workflow](/blog/open-house-lead-automation)
 
 ---
