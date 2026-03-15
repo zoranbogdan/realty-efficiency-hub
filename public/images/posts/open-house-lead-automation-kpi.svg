@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">From Sign-In To Conversion</title>
+  <desc id="desc">Use structured intake, scoring, routing, and KPI review to turn open-house traffic into qualified pipeline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eff6ff"/>
+      <stop offset="1" stop-color="#f8fafc"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1400 80) rotate(90) scale(620 760)">
+      <stop stop-color="#0f766e" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#0f766e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+
+  <rect x="84" y="84" width="1432" height="732" rx="32" fill="#ffffff" stroke="#dbe4ee" stroke-width="2"/>
+
+  <rect x="132" y="138" width="300" height="52" rx="26" fill="#0f766e" fill-opacity="0.11"/>
+  <text x="154" y="171" font-family="Avenir Next, Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#0f766e">Operational Blueprint</text>
+
+  <text x="132" y="308" font-family="Avenir Next, Inter, Segoe UI, Arial, sans-serif" font-size="82" font-weight="800" letter-spacing="-1.2" fill="#0f172a">
+    <tspan x="132" y="308">From Sign-In</tspan><tspan x="132" y="400">To Conversion</tspan>
+  </text>
+
+  <text x="132" y="520" font-family="Avenir Next, Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="500" fill="#334155">
+    Use structured intake, scoring, routing, and KPI review to turn open-house traffic into qualified pipeline.
+  </text>
+
+  <line x1="132" y1="650" x2="1468" y2="650" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="132" y="714" font-family="Avenir Next, Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Realty Efficiency Hub</text>
+  <text x="500" y="714" font-family="Avenir Next, Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="500" fill="#64748b">Professional Real Estate AI & Automation Content</text>
+</svg>

@@ -18,6 +18,8 @@ Writing compelling property listings takes time. Most agents use basic prompts a
 
 Below are **25 copy-paste real estate listing prompts** designed to act as your virtual marketing team. These prompts use "Personas," "Psychological Triggers," and "Strategic Constraints" to ensure the output is professional, unique, and ready for the MLS.
 
+![Real estate listing description prompts cover image with professional AI content branding](/images/posts/real-estate-listing-description-prompts-cover.webp)
+
 ---
 
 ## How to Get the Best Results

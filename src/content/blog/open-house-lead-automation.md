@@ -23,6 +23,8 @@ That is where **open house lead automation** creates operational leverage.
 
 A strong workflow gives you immediate capture, consistent segmentation, and time-based follow-up so no lead depends on memory alone.
 
+![Open house lead automation workflow visual with capture, segmentation, and follow-up strategy](/images/posts/open-house-lead-automation-cover.webp)
+
 This guide explains how to design an automation system that turns open house traffic into measurable pipeline outcomes.
 
 ---
@@ -200,6 +202,8 @@ Review per-event metrics:
 - conversion to buyer consults
 
 Use review data to improve scripts and qualification criteria.
+
+![Open house process diagram concept from sign-in to conversion with KPI review](/images/posts/open-house-lead-automation-kpi.webp)
 
 ---
 
