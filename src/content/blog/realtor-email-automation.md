@@ -5,6 +5,7 @@ pubDate: 2026-03-06
 author: "Realty Efficiency Hub"
 cluster: "Automation Workflows"
 contentType: "workflow-guide"
+coverImage: "/images/posts/realtor-email-automation-cover.webp"
 keyword: "real estate email automation"
 tags:
   - real-estate
@@ -24,6 +25,8 @@ That is where **real estate email automation** becomes a growth system, not just
 A strong workflow guide should help you automate the parts that need speed and consistency while keeping your messaging personal and useful.
 
 This article explains how to build a production-ready email automation workflow for real estate teams.
+
+![Automating Realtor Email Follow-Ups cover image](/images/posts/realtor-email-automation-cover.webp)
 
 ---
 

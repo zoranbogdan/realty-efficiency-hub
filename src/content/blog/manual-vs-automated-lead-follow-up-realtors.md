@@ -5,6 +5,7 @@ pubDate: 2026-02-03
 author: "Realty Efficiency Hub"
 cluster: "Automation Workflows"
 contentType: "comparison-article"
+coverImage: "/images/posts/manual-vs-automated-lead-follow-up-realtors-cover.webp"
 keyword: "manual vs automated lead follow up realtors"
 tags:
   - real-estate
@@ -29,6 +30,8 @@ Most teams do not choose between manual and automated follow-up because of strat
 Manual follow-up feels personal. Automation feels scalable. In reality, high-performing teams use both, but with clear boundaries.
 
 This article compares both models in real estate operations so you can decide where manual execution should remain and where automation should take over.
+
+![Manual vs Automated Lead Follow-Up for Realtors cover image](/images/posts/manual-vs-automated-lead-follow-up-realtors-cover.webp)
 
 ---
 

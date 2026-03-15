@@ -5,6 +5,7 @@ pubDate: 2026-02-17
 author: "Realty Efficiency Hub"
 cluster: "AI Prompts"
 contentType: "prompt-guide"
+coverImage: "/images/posts/open-house-follow-up-prompts-cover.webp"
 keyword: "open house follow up prompts"
 tags:
   - real-estate
@@ -24,6 +25,8 @@ That’s where **open house follow-up prompts** can help.
 With the right prompt, tools like ChatGPT can generate personalized follow-up emails, text messages, and buyer nurture messages in seconds.
 
 Below you'll find **25 copy-paste open house follow-up prompts** you can use right away.
+
+![Open House Follow-Up Prompts cover image](/images/posts/open-house-follow-up-prompts-cover.webp)
 
 ---
 
@@ -74,12 +77,31 @@ Strong follow-up helps agents:
 ### 1. Standard Thank-You Email Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a professional and friendly follow-up email for a real estate agent after an open house.
 
 Property: [property address]
 Visitor name: [name]
 
 Thank them for attending and invite them to ask questions or schedule a private showing.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -87,12 +109,31 @@ Thank them for attending and invite them to ask questions or schedule a private 
 ### 2. Same-Day Follow-Up Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a same-day follow-up email after an open house.
 
 Property: [property address]
 Visitor name: [name]
 
 Mention a standout feature of the home and encourage them to reply with questions.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -100,12 +141,31 @@ Mention a standout feature of the home and encourage them to reply with question
 ### 3. Follow-Up Text Message Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a short and friendly text message after an open house.
 
 Property: [property address]
 Visitor name: [name]
 
 Keep the message conversational and thank them for visiting.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -113,6 +173,15 @@ Keep the message conversational and thank them for visiting.
 ### 4. Interested Buyer Follow-Up Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a follow-up email for a buyer who showed strong interest.
 
 Property: [property address]
@@ -120,6 +189,16 @@ Visitor name: [name]
 Things they liked: [notes]
 
 Invite them to schedule a private showing.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -127,12 +206,31 @@ Invite them to schedule a private showing.
 ### 5. Second Showing Invitation Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a follow-up email inviting an open house visitor to a second viewing.
 
 Property: [property address]
 Visitor name: [name]
 
 Explain that a second visit can help them evaluate the home more carefully.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -140,12 +238,31 @@ Explain that a second visit can help them evaluate the home more carefully.
 ### 6. Buyer Qualification Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a follow-up message asking about the buyer’s timeline and preferences.
 
 Property: [property address]
 Visitor name: [name]
 
 Ask if they are actively searching and whether they want help finding similar homes.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -153,12 +270,31 @@ Ask if they are actively searching and whether they want help finding similar ho
 ### 7. Financing Question Follow-Up Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a follow-up email including a gentle financing question.
 
 Property: [property address]
 Visitor name: [name]
 
 Ask whether they are pre-approved or need lender recommendations.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -166,6 +302,15 @@ Ask whether they are pre-approved or need lender recommendations.
 ### 8. Buyer Objection Follow-Up Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a follow-up message for a visitor who had concerns.
 
 Property: [property address]
@@ -173,6 +318,16 @@ Visitor name: [name]
 Concern: [price / size / layout]
 
 Address the concern respectfully.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -180,12 +335,31 @@ Address the concern respectfully.
 ### 9. Similar Property Offer Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a follow-up email offering similar property options.
 
 Property visited: [property address]
 Visitor name: [name]
 
 Offer to send listings matching their preferences.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -193,12 +367,31 @@ Offer to send listings matching their preferences.
 ### 10. First-Time Buyer Follow-Up Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a follow-up email for a first-time buyer after an open house.
 
 Property: [property address]
 Visitor name: [name]
 
 Offer guidance about the buying process.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -206,12 +399,31 @@ Offer guidance about the buying process.
 ### 11. Investor Follow-Up Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a follow-up email for an investor.
 
 Property: [property address]
 Visitor name: [name]
 
 Mention potential rental value and next steps.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -219,12 +431,31 @@ Mention potential rental value and next steps.
 ### 12. Luxury Buyer Follow-Up Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a polished follow-up email for a luxury buyer.
 
 Property: [property address]
 Visitor name: [name]
 
 Invite them to schedule a private viewing.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -232,12 +463,31 @@ Invite them to schedule a private viewing.
 ### 13. Second Reminder Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a polite second follow-up email after an open house.
 
 Property: [property address]
 Visitor name: [name]
 
 Keep the tone helpful and low-pressure.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -245,12 +495,31 @@ Keep the tone helpful and low-pressure.
 ### 14. Family Buyer Follow-Up Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a follow-up email for a visitor who attended with family.
 
 Property: [property address]
 Visitor name: [name]
 
 Invite them to return for a second showing together.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -258,12 +527,31 @@ Invite them to return for a second showing together.
 ### 15. Feedback Request Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a follow-up email asking for feedback after an open house.
 
 Property: [property address]
 Visitor name: [name]
 
 Ask what they liked and whether they have concerns.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -271,12 +559,31 @@ Ask what they liked and whether they have concerns.
 ### 16. Seller Update Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a seller update summarizing open house feedback.
 
 Property: [property address]
 Visitors: [number]
 
 Summarize reactions and interest levels.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -284,12 +591,31 @@ Summarize reactions and interest levels.
 ### 17. Sign-In Sheet Lead Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write an email follow-up for someone who signed in at an open house.
 
 Property: [property address]
 Visitor name: [name]
 
 Offer additional information and similar listings.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -297,12 +623,31 @@ Offer additional information and similar listings.
 ### 18. No-Show Follow-Up Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a follow-up message for someone who registered but did not attend the open house.
 
 Property: [property address]
 Visitor name: [name]
 
 Offer a private showing.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -310,10 +655,29 @@ Offer a private showing.
 ### 19. Urgency Follow-Up Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a follow-up email mentioning buyer interest without sounding pushy.
 
 Property: [property address]
 Visitor name: [name]
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -321,11 +685,30 @@ Visitor name: [name]
 ### 20. Price Reduction Follow-Up Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a follow-up email announcing a price reduction.
 
 Property: [property address]
 Visitor name: [name]
 New price: [price]
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ---
@@ -335,7 +718,26 @@ New price: [price]
 ### Prompt used
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a follow-up email for an open house visitor named Sarah who visited 18 Maple Street and liked the backyard.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ### Example output

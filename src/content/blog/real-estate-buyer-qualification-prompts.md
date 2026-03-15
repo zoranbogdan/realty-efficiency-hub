@@ -5,6 +5,7 @@ pubDate: 2026-02-24
 author: "Realty Efficiency Hub"
 cluster: "AI Prompts"
 contentType: "prompt-guide"
+coverImage: "/images/posts/real-estate-buyer-qualification-prompts-cover.webp"
 keyword: "buyer qualification prompts real estate"
 tags:
   - real-estate
@@ -20,6 +21,8 @@ Buyer qualification is where deals are protected or lost.
 If qualification is too shallow, agents waste time on unready leads. If it is too aggressive, good prospects disengage. The goal is to ask the right questions in the right order with the right tone.
 
 Below are **25 copy-paste buyer qualification prompts for real estate agents**. Each prompt helps you use AI to create better scripts, emails, and text messages that identify fit while keeping conversations professional and human.
+
+![Real estate buyer qualification prompts cover image with structured scoring and decision workflow style](/images/posts/real-estate-buyer-qualification-prompts-cover.webp)
 
 ---
 

@@ -12,6 +12,7 @@ const blog = defineCollection({
     author: z.string().optional(),
     cluster: z.string(),
     contentType: z.enum(contentTypes),
+    coverImage: z.string().optional(),
     keyword: z.string().optional(),
     tags: z.array(z.string()).optional(),
     faq: z

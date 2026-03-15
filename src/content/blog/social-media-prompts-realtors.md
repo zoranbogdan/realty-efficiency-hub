@@ -5,6 +5,7 @@ pubDate: 2026-02-03
 author: "Realty Efficiency Hub"
 cluster: "AI Prompts"
 contentType: "prompt-guide"
+coverImage: "/images/posts/social-media-prompts-realtors-cover.webp"
 keyword: "social media prompts real estate"
 tags:
   - real-estate
@@ -24,6 +25,8 @@ That’s where **social media prompts for realtors** can help.
 With the right prompt, tools like ChatGPT can generate captions, post ideas, hooks, scripts, and educational content in minutes.
 
 Below you'll find **25 copy-paste social media prompts** real estate professionals can use right away.
+
+![Social Media Prompts for Realtors cover image](/images/posts/social-media-prompts-realtors-cover.webp)
 
 ---
 
@@ -75,6 +78,15 @@ AI does not replace strategy. It helps you produce first drafts faster.
 ### 1. New Listing Caption Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a social media caption for a new real estate listing.
 
 Property: [property address or summary]
@@ -83,6 +95,16 @@ Platform: [Instagram / Facebook / LinkedIn]
 Tone: professional and engaging
 
 Include a hook, key features, and a call to action.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 A strong default prompt for new listings.
@@ -92,6 +114,15 @@ A strong default prompt for new listings.
 ### 2. Open House Promotion Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a social media post promoting an upcoming open house.
 
 Property: [property details]
@@ -99,6 +130,16 @@ Date and time: [details]
 Platform: [platform]
 
 Make it inviting and action-oriented.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Useful for event promotion.
@@ -108,11 +149,30 @@ Useful for event promotion.
 ### 3. Just Sold Post Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a social media caption for a just sold property.
 
 Property: [details]
 Goal: celebrate the result and reinforce credibility
 Tone: professional and upbeat
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Good for social proof.
@@ -122,10 +182,29 @@ Good for social proof.
 ### 4. Buyer Tip Post Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a short educational social media post for buyers.
 
 Topic: [mortgage prep / showings / offers / inspections]
 Tone: helpful and easy to understand.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Useful for educational content.
@@ -135,10 +214,29 @@ Useful for educational content.
 ### 5. Seller Tip Post Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a short educational social media post for homeowners preparing to sell.
 
 Topic: [pricing / staging / photos / timing]
 Tone: practical and helpful.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Great for attracting future sellers.
@@ -148,12 +246,31 @@ Great for attracting future sellers.
 ### 6. Market Update Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a local real estate market update post.
 
 Area: [city or neighborhood]
 Key points: [inventory / prices / demand / trends]
 
 Make the post clear, useful, and not overly technical.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Good for authority content.
@@ -163,10 +280,29 @@ Good for authority content.
 ### 7. Neighborhood Spotlight Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a neighborhood spotlight social media post for [neighborhood].
 
 Mention local lifestyle, amenities, and why buyers like the area.
 Tone: positive and informative.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Useful for local brand positioning.
@@ -176,10 +312,29 @@ Useful for local brand positioning.
 ### 8. Day in the Life Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a social media caption for a day-in-the-life realtor post.
 
 Activities: [showings / appointments / listing prep / client meetings]
 Tone: personal, professional, and authentic.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Good for personal brand content.
@@ -189,10 +344,29 @@ Good for personal brand content.
 ### 9. Behind-the-Scenes Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a behind-the-scenes social media caption for a real estate agent.
 
 Context: [preparing a listing / staging / filming / open house setup]
 Tone: natural and engaging.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Useful for authenticity.
@@ -202,10 +376,29 @@ Useful for authenticity.
 ### 10. Myth vs Fact Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a myth-versus-fact real estate social media post.
 
 Topic: [buying, selling, mortgage, pricing]
 Make it short, useful, and easy to skim.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Helpful for engagement and education.
@@ -215,10 +408,29 @@ Helpful for engagement and education.
 ### 11. FAQ Post Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a social media post answering a common real estate question.
 
 Question: [insert question]
 Tone: simple, helpful, and professional.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Great for recurring content.
@@ -228,11 +440,30 @@ Great for recurring content.
 ### 12. Lead Magnet Promotion Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a social media caption promoting a free real estate resource.
 
 Resource: [checklist / guide / prompt pack]
 Target audience: [buyers / sellers / investors]
 Include a clear CTA.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Useful for email capture.
@@ -242,10 +473,29 @@ Useful for email capture.
 ### 13. Testimonial Post Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a social media post sharing a client testimonial.
 
 Testimonial: [text or summary]
 Tone: appreciative and credible.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Great for social proof.
@@ -255,10 +505,29 @@ Great for social proof.
 ### 14. Reel or Short Video Hook Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write 10 short hooks for a real estate Reel or short video.
 
 Topic: [listing / buyer tip / market update / open house]
 Tone: engaging and scroll-stopping.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Useful for video content.
@@ -268,10 +537,29 @@ Useful for video content.
 ### 15. Carousel Post Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write the outline for a 5-slide real estate carousel post.
 
 Topic: [selling tips / buyer mistakes / local market update]
 Each slide should be short and clear.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Helpful for Instagram and LinkedIn carousels.
@@ -281,11 +569,30 @@ Helpful for Instagram and LinkedIn carousels.
 ### 16. Personal Brand Introduction Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a social media post introducing a real estate agent’s brand and values.
 
 Location: [area]
 Specialty: [buyers / sellers / luxury / first-time buyers]
 Tone: professional and approachable.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Useful for profile-building.
@@ -295,11 +602,30 @@ Useful for profile-building.
 ### 17. Price Reduction Post Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a social media caption announcing a price reduction for a property.
 
 Property: [details]
 New price: [price]
 Tone: clear and persuasive.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Strong listing update content.
@@ -309,10 +635,29 @@ Strong listing update content.
 ### 18. Coming Soon Post Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a social media caption for a coming-soon listing.
 
 Property: [details]
 Goal: create curiosity and early interest.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Good for pre-launch visibility.
@@ -322,10 +667,29 @@ Good for pre-launch visibility.
 ### 19. Open House Recap Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a social media post recapping an open house.
 
 Property: [details]
 Include: turnout, atmosphere, and next-step CTA.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Useful after events.
@@ -335,10 +699,29 @@ Useful after events.
 ### 20. Common Buyer Mistakes Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a social media post about common mistakes buyers make.
 
 Include 3 short mistakes and simple advice.
 Tone: helpful, not judgmental.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Educational and shareable.
@@ -348,9 +731,28 @@ Educational and shareable.
 ### 21. Common Seller Mistakes Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a social media post about common mistakes sellers make before listing a home.
 
 Keep the content practical and easy to read.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Useful for attracting sellers.
@@ -360,10 +762,29 @@ Useful for attracting sellers.
 ### 22. Seasonal Real Estate Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a seasonal real estate social media post.
 
 Season: [spring / summer / fall / winter]
 Angle: [buying tips / selling tips / local lifestyle]
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Good for content planning.
@@ -373,10 +794,29 @@ Good for content planning.
 ### 23. FAQ Story Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a short real estate Instagram Story sequence answering one common buyer or seller question.
 
 Question: [insert question]
 Include 3 short frames.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Useful for stories and reels.
@@ -386,10 +826,29 @@ Useful for stories and reels.
 ### 24. Engagement Question Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a real estate social media post designed to spark comments.
 
 Topic: [favorite kitchen style / dream neighborhood / backyard must-have]
 Keep it light and audience-friendly.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 Good for reach and engagement.
@@ -399,6 +858,15 @@ Good for reach and engagement.
 ### 25. Personalized Social Content Prompt
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write a social media post based on these notes:
 
 Goal: [educate / promote / engage / convert]
@@ -407,6 +875,16 @@ Topic: [details]
 Tone: [brand tone]
 
 Create a concise, useful, and professional post with a CTA.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 A great all-purpose prompt.
@@ -418,7 +896,26 @@ A great all-purpose prompt.
 ### Prompt used
 
 ~~~text
+# ROLE
+Act as a super-specialized AI prompt engineer with deep real estate expertise.
+
+# CONTEXT
+- Audience: Real estate agents and teams.
+- Use case: [Insert specific scenario for this prompt].
+- Inputs: [Insert property, lead, market, or campaign details].
+
+# TASK
 Write an Instagram caption for a new listing: a 3-bedroom home in Austin with a modern kitchen, large backyard, and bright open living area.
+
+# PSYCHOLOGICAL TRIGGERS
+- Clarity: prioritize direct, useful, and actionable output.
+- Relevance: align the message with the recipient's real estate context.
+- Trust: use specific details and a confident professional tone.
+
+# CONSTRAINTS
+- Keep output practical, accurate, and easy to use.
+- Avoid fluff, hype, or unverifiable claims.
+- Use placeholders in [brackets] for missing variables.
 ~~~
 
 ### Example output

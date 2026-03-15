@@ -1,0 +1,421 @@
+{
+  "version": 1,
+  "defaults": {
+    "size": "1600x900",
+    "format": "webp",
+    "palette": [
+      "#1D4ED8",
+      "#4338CA",
+      "#0F766E"
+    ],
+    "max_images_per_post": 2
+  },
+  "posts": [
+    {
+      "slug": "real-estate-listing-description-prompts",
+      "title": "Real Estate Listing Description Prompts",
+      "pillar": "AI Prompts",
+      "content_type": "Prompt Guide",
+      "images": [
+        {
+          "kind": "cover",
+          "file": "public/images/posts/real-estate-listing-description-prompts-cover.webp",
+          "short_title": "Listing Prompt System",
+          "summary": "Reusable prompt structures for high-converting listing descriptions.",
+          "motif": "structured prompt blocks",
+          "diagram_type": "input-output pipeline",
+          "flow_steps": [
+            "Property details",
+            "AI prompt",
+            "Generated listing description"
+          ],
+          "left_panel": "Inputs and context",
+          "right_panel": "Outputs and outcomes"
+        }
+      ]
+    },
+    {
+      "slug": "real-estate-email-prompts",
+      "title": "Real Estate Email Prompts",
+      "pillar": "AI Prompts",
+      "content_type": "Prompt Guide",
+      "images": [
+        {
+          "kind": "cover",
+          "file": "public/images/posts/real-estate-email-prompts-cover.webp",
+          "short_title": "Email Prompt Library",
+          "summary": "Copy-ready email prompt frameworks for real estate follow-up.",
+          "motif": "message module cards",
+          "diagram_type": "input-output pipeline",
+          "flow_steps": [
+            "Agent context",
+            "AI prompt",
+            "Structured output"
+          ],
+          "left_panel": "Inputs and context",
+          "right_panel": "Outputs and outcomes"
+        }
+      ]
+    },
+    {
+      "slug": "social-media-prompts-realtors",
+      "title": "Social Media Prompts for Realtors",
+      "pillar": "AI Prompts",
+      "content_type": "Prompt Guide",
+      "images": [
+        {
+          "kind": "cover",
+          "file": "public/images/posts/social-media-prompts-realtors-cover.webp",
+          "short_title": "Social Prompt Toolkit",
+          "summary": "Prompt patterns for captions, hooks, and platform-ready social content.",
+          "motif": "content feed card stack",
+          "diagram_type": "input-output pipeline",
+          "flow_steps": [
+            "Agent context",
+            "AI prompt",
+            "Structured output"
+          ],
+          "left_panel": "Inputs and context",
+          "right_panel": "Outputs and outcomes"
+        }
+      ]
+    },
+    {
+      "slug": "real-estate-marketing-prompts",
+      "title": "Real Estate Marketing Prompts",
+      "pillar": "AI Prompts",
+      "content_type": "Prompt Guide",
+      "images": [
+        {
+          "kind": "cover",
+          "file": "public/images/posts/real-estate-marketing-prompts-cover.webp",
+          "short_title": "Marketing Prompt Playbook",
+          "summary": "Campaign prompt structures for ads, email, and listing promotion.",
+          "motif": "campaign planning blocks",
+          "diagram_type": "input-output pipeline",
+          "flow_steps": [
+            "Agent context",
+            "AI prompt",
+            "Structured output"
+          ],
+          "left_panel": "Inputs and context",
+          "right_panel": "Outputs and outcomes"
+        }
+      ]
+    },
+    {
+      "slug": "real-estate-follow-up-text-prompts",
+      "title": "Real Estate Follow-Up Text Prompts",
+      "pillar": "AI Prompts",
+      "content_type": "Prompt Guide",
+      "images": [
+        {
+          "kind": "cover",
+          "file": "public/images/posts/real-estate-follow-up-text-prompts-cover.webp",
+          "short_title": "SMS Follow-Up Prompts",
+          "summary": "Short, high-response text prompt templates for buyer follow-up.",
+          "motif": "mobile message bubbles",
+          "diagram_type": "input-output pipeline",
+          "flow_steps": [
+            "Agent context",
+            "AI prompt",
+            "Structured output"
+          ],
+          "left_panel": "Inputs and context",
+          "right_panel": "Outputs and outcomes"
+        }
+      ]
+    },
+    {
+      "slug": "open-house-marketing-prompts",
+      "title": "Open House Marketing Prompts",
+      "pillar": "AI Prompts",
+      "content_type": "Prompt Guide",
+      "images": [
+        {
+          "kind": "cover",
+          "file": "public/images/posts/open-house-marketing-prompts-cover.webp",
+          "short_title": "Open House Promotion Prompts",
+          "summary": "Prompt templates to market open houses across channels.",
+          "motif": "event promotion board",
+          "diagram_type": "input-output pipeline",
+          "flow_steps": [
+            "Agent context",
+            "AI prompt",
+            "Structured output"
+          ],
+          "left_panel": "Inputs and context",
+          "right_panel": "Outputs and outcomes"
+        }
+      ]
+    },
+    {
+      "slug": "open-house-follow-up-prompts",
+      "title": "Open House Follow-Up Prompts",
+      "pillar": "AI Prompts",
+      "content_type": "Prompt Guide",
+      "images": [
+        {
+          "kind": "cover",
+          "file": "public/images/posts/open-house-follow-up-prompts-cover.webp",
+          "short_title": "Open House Follow-Up Prompts",
+          "summary": "Post-event prompt templates for conversion-focused follow-up.",
+          "motif": "follow-up sequence timeline",
+          "diagram_type": "input-output pipeline",
+          "flow_steps": [
+            "Agent context",
+            "AI prompt",
+            "Structured output"
+          ],
+          "left_panel": "Inputs and context",
+          "right_panel": "Outputs and outcomes"
+        }
+      ]
+    },
+    {
+      "slug": "cold-outreach-prompts-realtors",
+      "title": "Cold Outreach Prompts for Realtors",
+      "pillar": "AI Prompts",
+      "content_type": "Prompt Guide",
+      "images": [
+        {
+          "kind": "cover",
+          "file": "public/images/posts/cold-outreach-prompts-realtors-cover.webp",
+          "short_title": "Cold Outreach Prompt Set",
+          "summary": "Prompt structures for outbound realtor email, DM, and text outreach.",
+          "motif": "outreach channel matrix",
+          "diagram_type": "input-output pipeline",
+          "flow_steps": [
+            "Agent context",
+            "AI prompt",
+            "Structured output"
+          ],
+          "left_panel": "Inputs and context",
+          "right_panel": "Outputs and outcomes"
+        }
+      ]
+    },
+    {
+      "slug": "real-estate-buyer-qualification-prompts",
+      "title": "Real Estate Buyer Qualification Prompts",
+      "pillar": "AI Prompts",
+      "content_type": "Prompt Guide",
+      "images": [
+        {
+          "kind": "cover",
+          "file": "public/images/posts/real-estate-buyer-qualification-prompts-cover.webp",
+          "short_title": "Buyer Qualification Prompts",
+          "summary": "Prompt framework to qualify buyer readiness and fit faster.",
+          "motif": "qualification checklist grid",
+          "diagram_type": "input-output pipeline",
+          "flow_steps": [
+            "Agent context",
+            "AI prompt",
+            "Structured output"
+          ],
+          "left_panel": "Inputs and context",
+          "right_panel": "Outputs and outcomes"
+        }
+      ]
+    },
+    {
+      "slug": "property-tour-script-prompts",
+      "title": "Property Tour Script Prompts",
+      "pillar": "AI Prompts",
+      "content_type": "Prompt Guide",
+      "images": [
+        {
+          "kind": "cover",
+          "file": "public/images/posts/property-tour-script-prompts-cover.webp",
+          "short_title": "Property Tour Script Prompts",
+          "summary": "Prompt patterns for better guided showings and buyer feedback.",
+          "motif": "tour path and script cards",
+          "diagram_type": "input-output pipeline",
+          "flow_steps": [
+            "Agent context",
+            "AI prompt",
+            "Structured output"
+          ],
+          "left_panel": "Inputs and context",
+          "right_panel": "Outputs and outcomes"
+        }
+      ]
+    },
+    {
+      "slug": "real-estate-lead-follow-up-automation",
+      "title": "Real Estate Lead Follow-Up Automation",
+      "pillar": "Automation Workflows",
+      "content_type": "Workflow Guide",
+      "images": [
+        {
+          "kind": "cover",
+          "file": "public/images/posts/real-estate-lead-follow-up-automation-cover.webp",
+          "short_title": "Lead Follow-Up Automation",
+          "summary": "Operational workflow for faster response and lower lead leakage.",
+          "motif": "workflow lanes with SLA checkpoints",
+          "diagram_type": "5-step workflow",
+          "flow_steps": [
+            "Lead input",
+            "Automation logic",
+            "Qualified outcome"
+          ],
+          "left_panel": "Inputs and context",
+          "right_panel": "Outputs and outcomes"
+        },
+        {
+          "kind": "section-1",
+          "file": "public/images/posts/real-estate-lead-follow-up-automation-section-1.webp",
+          "short_title": "Follow-Up KPI Stack",
+          "summary": "Track speed, reply, qualification, and booking metrics by source.",
+          "motif": "kpi cards and trend bars",
+          "diagram_type": "5-step workflow",
+          "flow_steps": [
+            "Lead input",
+            "Automation logic",
+            "Qualified outcome"
+          ],
+          "left_panel": "Inputs and context",
+          "right_panel": "Outputs and outcomes"
+        }
+      ]
+    },
+    {
+      "slug": "realtor-email-automation",
+      "title": "Automating Realtor Email Follow-Ups",
+      "pillar": "Automation Workflows",
+      "content_type": "Workflow Guide",
+      "images": [
+        {
+          "kind": "cover",
+          "file": "public/images/posts/realtor-email-automation-cover.webp",
+          "short_title": "Realtor Email Automation",
+          "summary": "Workflow architecture for email follow-up and lead nurture.",
+          "motif": "email flow columns",
+          "diagram_type": "5-step workflow",
+          "flow_steps": [
+            "Lead input",
+            "Automation logic",
+            "Qualified outcome"
+          ],
+          "left_panel": "Inputs and context",
+          "right_panel": "Outputs and outcomes"
+        }
+      ]
+    },
+    {
+      "slug": "real-estate-lead-qualification-automation",
+      "title": "Lead Qualification Automation for Realtors",
+      "pillar": "Automation Workflows",
+      "content_type": "Workflow Guide",
+      "images": [
+        {
+          "kind": "cover",
+          "file": "public/images/posts/real-estate-lead-qualification-automation-cover.webp",
+          "short_title": "Lead Qualification Automation",
+          "summary": "Scoring and routing workflow for better pipeline prioritization.",
+          "motif": "score matrix and routing nodes",
+          "diagram_type": "5-step workflow",
+          "flow_steps": [
+            "Lead input",
+            "Automation logic",
+            "Qualified outcome"
+          ],
+          "left_panel": "Inputs and context",
+          "right_panel": "Outputs and outcomes"
+        }
+      ]
+    },
+    {
+      "slug": "open-house-lead-automation",
+      "title": "Open House Lead Automation Workflow",
+      "pillar": "Automation Workflows",
+      "content_type": "Workflow Guide",
+      "images": [
+        {
+          "kind": "cover",
+          "file": "public/images/posts/open-house-lead-automation-cover.webp",
+          "short_title": "Open House Lead Automation",
+          "summary": "Capture and convert open house traffic with segmented follow-up.",
+          "motif": "event intake and follow-up lanes",
+          "diagram_type": "5-step workflow",
+          "flow_steps": [
+            "Open house sign-in",
+            "CRM enrichment",
+            "Segmented follow-up",
+            "Qualification",
+            "Meeting booked"
+          ],
+          "left_panel": "Inputs and context",
+          "right_panel": "Outputs and outcomes"
+        },
+        {
+          "kind": "section-1",
+          "file": "public/images/posts/open-house-lead-automation-kpi.webp",
+          "short_title": "Sign-In to Conversion",
+          "summary": "Operational chain from event capture to consult booking.",
+          "motif": "pipeline board with KPI widgets",
+          "diagram_type": "5-step workflow",
+          "flow_steps": [
+            "Open house sign-in",
+            "CRM enrichment",
+            "Segmented follow-up",
+            "Qualification",
+            "Meeting booked"
+          ],
+          "left_panel": "Inputs and context",
+          "right_panel": "Outputs and outcomes"
+        }
+      ]
+    },
+    {
+      "slug": "manual-vs-automated-lead-follow-up-realtors",
+      "title": "Manual vs Automated Lead Follow-Up for Realtors",
+      "pillar": "Automation Workflows",
+      "content_type": "Comparison Article",
+      "images": [
+        {
+          "kind": "cover",
+          "file": "public/images/posts/manual-vs-automated-lead-follow-up-realtors-cover.webp",
+          "short_title": "Manual vs Automated Follow-Up",
+          "summary": "Head-to-head comparison of speed, consistency, and conversion impact.",
+          "motif": "two-column decision matrix",
+          "diagram_type": "side-by-side comparison",
+          "flow_steps": [
+            "New lead",
+            "Manual path",
+            "Automated path",
+            "Response outcomes",
+            "Conversion impact"
+          ],
+          "left_panel": "Option A",
+          "right_panel": "Option B"
+        }
+      ]
+    },
+    {
+      "slug": "realtor-email-automation-diy-vs-done-for-you",
+      "title": "Realtor Email Automation: DIY vs Done-For-You",
+      "pillar": "Automation Workflows",
+      "content_type": "Comparison Article",
+      "images": [
+        {
+          "kind": "cover",
+          "file": "public/images/posts/realtor-email-automation-diy-vs-done-for-you-cover.webp",
+          "short_title": "DIY vs Done-For-You Email Automation",
+          "summary": "Compare launch speed, cost, and implementation risk.",
+          "motif": "split architecture board",
+          "diagram_type": "side-by-side comparison",
+          "flow_steps": [
+            "Current process",
+            "DIY setup",
+            "Done-for-you setup",
+            "ROI comparison",
+            "Decision path"
+          ],
+          "left_panel": "Option A",
+          "right_panel": "Option B"
+        }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,7 @@ pubDate: 2026-01-27
 author: "Realty Efficiency Hub"
 cluster: "AI Prompts"
 contentType: "prompt-guide"
+coverImage: "/images/posts/real-estate-listing-description-prompts-cover.webp"
 keyword: "real estate listing prompts"
 tags:
   - real-estate

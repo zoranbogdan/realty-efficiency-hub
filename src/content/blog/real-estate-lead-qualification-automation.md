@@ -5,6 +5,7 @@ pubDate: 2026-03-10
 author: "Realty Efficiency Hub"
 cluster: "Automation Workflows"
 contentType: "workflow-guide"
+coverImage: "/images/posts/real-estate-lead-qualification-automation-cover.webp"
 keyword: "real estate lead qualification automation"
 tags:
   - real-estate
@@ -28,6 +29,8 @@ A good qualification workflow does three things:
 3. routes each lead to the right next action.
 
 This guide shows how to build a reliable lead qualification system for real estate teams, with practical rules you can implement in most CRM platforms.
+
+![Lead Qualification Automation for Realtors cover image](/images/posts/real-estate-lead-qualification-automation-cover.webp)
 
 ---
 

@@ -5,6 +5,7 @@ pubDate: 2026-02-20
 author: "Realty Efficiency Hub"
 cluster: "AI Prompts"
 contentType: "prompt-guide"
+coverImage: "/images/posts/cold-outreach-prompts-realtors-cover.webp"
 keyword: "real estate cold outreach prompts"
 tags:
   - real-estate
@@ -22,6 +23,8 @@ When agents use AI with weak inputs, they get templated copy that feels pushy. B
 Below are **25 copy-paste real estate cold outreach prompts** built for real workflows: seller outreach, buyer outreach, investor prospecting, circle calls, social DMs, and follow-up sequences.
 
 Each prompt uses the same framework so your output stays consistent and usable.
+
+![Cold Outreach Prompts for Realtors cover image](/images/posts/cold-outreach-prompts-realtors-cover.webp)
 
 ---
 

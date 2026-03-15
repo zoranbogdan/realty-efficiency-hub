@@ -5,6 +5,7 @@ pubDate: 2026-03-13
 author: "Realty Efficiency Hub"
 cluster: "Automation Workflows"
 contentType: "workflow-guide"
+coverImage: "/images/posts/open-house-lead-automation-cover.webp"
 keyword: "open house lead automation"
 tags:
   - real-estate

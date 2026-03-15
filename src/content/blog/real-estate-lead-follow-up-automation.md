@@ -5,6 +5,7 @@ pubDate: 2026-03-03
 author: "Realty Efficiency Hub"
 cluster: "Automation Workflows"
 contentType: "workflow-guide"
+coverImage: "/images/posts/real-estate-lead-follow-up-automation-cover.webp"
 keyword: "real estate lead follow up automation"
 tags:
   - real-estate
@@ -24,6 +25,8 @@ That is why **real estate lead follow up automation** matters.
 A strong automation workflow does not replace relationship-building. It handles timing, routing, reminders, and early-stage communication so your team can spend more time in high-value conversations.
 
 This guide shows you how to build a practical automation system that is fast, compliant, and human.
+
+![Real Estate Lead Follow-Up Automation cover image](/images/posts/real-estate-lead-follow-up-automation-cover.webp)
 
 ---
 

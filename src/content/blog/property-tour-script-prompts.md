@@ -5,6 +5,7 @@ pubDate: 2026-02-27
 author: "Realty Efficiency Hub"
 cluster: "AI Prompts"
 contentType: "prompt-guide"
+coverImage: "/images/posts/property-tour-script-prompts-cover.webp"
 keyword: "property tour script prompts"
 tags:
   - real-estate
@@ -20,6 +21,8 @@ A strong property tour script helps buyers feel guided, not pressured.
 Most showings fail because agents either over-talk features or under-guide decision points. With the right AI prompt, you can generate scripts that balance discovery, storytelling, and qualification.
 
 Below are **25 copy-paste property tour script prompts** for real estate agents. Use them to create better in-person tours, virtual tours, follow-up scripts, and objection-handling lines.
+
+![Property Tour Script Prompts cover image](/images/posts/property-tour-script-prompts-cover.webp)
 
 ---
 

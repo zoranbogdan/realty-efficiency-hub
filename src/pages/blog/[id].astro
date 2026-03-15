@@ -43,7 +43,11 @@ const faqSchema =
     : null;
 ---
 
-<MainLayout title={post.data.title} description={post.data.description}>
+<MainLayout
+  title={post.data.title}
+  description={post.data.description}
+  image={post.data.coverImage}
+>
   {faqSchema && (
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   )}

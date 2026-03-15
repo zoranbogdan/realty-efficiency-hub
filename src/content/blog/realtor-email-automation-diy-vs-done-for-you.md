@@ -5,6 +5,7 @@ pubDate: 2026-03-02
 author: "Realty Efficiency Hub"
 cluster: "Automation Workflows"
 contentType: "comparison-article"
+coverImage: "/images/posts/realtor-email-automation-diy-vs-done-for-you-cover.webp"
 keyword: "realtor email automation diy vs done for you"
 tags:
   - real-estate
@@ -32,6 +33,8 @@ Most realtor teams agree they need email automation. The real decision is execut
 Both can work. Both can fail.
 
 This comparison helps you choose the right path based on team capacity, risk tolerance, timeline, and expected business impact.
+
+![Realtor Email Automation: DIY vs Done-For-You cover image](/images/posts/realtor-email-automation-diy-vs-done-for-you-cover.webp)
 
 ---
 
