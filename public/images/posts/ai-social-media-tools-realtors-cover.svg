@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AI Social Media Tools for Realtors</title>
+  <desc id="desc">Comparison cover visual for AI social media tools in real estate.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5fbff"/>
+      <stop offset="100%" stop-color="#eef8f3"/>
+    </linearGradient>
+    <style>
+      .h1 { font: 700 54px Arial, sans-serif; fill: #14374f; }
+      .h2 { font: 400 24px Arial, sans-serif; fill: #3b6278; }
+      .card { fill: #ffffff; stroke: #2d6f95; stroke-width: 3; rx: 16; }
+      .t { font: 700 28px Arial, sans-serif; fill: #14374f; }
+      .s { font: 400 20px Arial, sans-serif; fill: #3b6278; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <text x="90" y="110" class="h1">AI Social Media Tools for Realtors</text>
+  <text x="90" y="155" class="h2">Comparison by content speed, channel fit, and lead-conversion workflow</text>
+
+  <rect x="90" y="240" width="440" height="220" class="card"/>
+  <text x="130" y="310" class="t">Content Creation</text>
+  <text x="130" y="355" class="s">Caption, script, and</text>
+  <text x="130" y="387" class="s">short-form ideation speed</text>
+
+  <rect x="580" y="240" width="440" height="220" class="card"/>
+  <text x="620" y="310" class="t">Publishing Workflow</text>
+  <text x="620" y="355" class="s">Scheduling, approvals,</text>
+  <text x="620" y="387" class="s">and content calendar fit</text>
+
+  <rect x="1070" y="240" width="440" height="220" class="card"/>
+  <text x="1110" y="310" class="t">Performance Signals</text>
+  <text x="1110" y="355" class="s">Engagement quality and</text>
+  <text x="1110" y="387" class="s">lead intent visibility</text>
+
+  <rect x="220" y="540" width="1160" height="260" class="card"/>
+  <text x="270" y="615" class="t">Social media tools work when operations are standardized</text>
+  <text x="270" y="665" class="s">• Use channel-specific templates and posting rhythms</text>
+  <text x="270" y="700" class="s">• Connect social responses to CRM follow-up tasks</text>
+  <text x="270" y="735" class="s">• Optimize weekly using qualified lead outcomes</text>
+</svg>

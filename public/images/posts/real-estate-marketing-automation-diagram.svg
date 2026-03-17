@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="920" viewBox="0 0 1400 920" role="img" aria-labelledby="title desc">
+  <title id="title">Real estate marketing automation workflow diagram</title>
+  <desc id="desc">Diagram showing segment triggers, channel execution, and CRM handoff.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7fbff; }
+      .node { fill: #fff; stroke: #1d5f85; stroke-width: 3; rx: 14; }
+      .title { font: 700 40px Arial, sans-serif; fill: #12344d; }
+      .txt { font: 700 22px Arial, sans-serif; fill: #12344d; }
+      .small { font: 400 18px Arial, sans-serif; fill: #355972; }
+      .line { stroke: #1d5f85; stroke-width: 4; fill: none; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0,10 3.5,0 7" fill="#1d5f85"/>
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1400" height="920"/>
+  <text class="title" x="70" y="85">Marketing Automation Flow</text>
+
+  <rect class="node" x="90" y="190" width="320" height="120"/>
+  <text class="txt" x="145" y="250">Audience Trigger</text>
+  <text class="small" x="130" y="280">Behavior + segment rules</text>
+
+  <rect class="node" x="530" y="190" width="320" height="120"/>
+  <text class="txt" x="615" y="250">Channel Flow</text>
+  <text class="small" x="575" y="280">Email/SMS/Social/Ads</text>
+
+  <rect class="node" x="970" y="190" width="320" height="120"/>
+  <text class="txt" x="1035" y="250">Lead Scoring</text>
+  <text class="small" x="995" y="280">Intent + engagement data</text>
+
+  <rect class="node" x="300" y="450" width="320" height="140"/>
+  <text class="txt" x="360" y="515">CRM Handoff</text>
+  <text class="small" x="330" y="550">Tasks + owner assignment</text>
+
+  <rect class="node" x="790" y="450" width="320" height="140"/>
+  <text class="txt" x="855" y="515">Optimization</text>
+  <text class="small" x="825" y="550">Weekly KPI review loop</text>
+
+  <path class="line" d="M410 250 H520"/>
+  <path class="line" d="M850 250 H960"/>
+  <path class="line" d="M1030 320 V440"/>
+  <path class="line" d="M970 520 H630"/>
+  <path class="line" d="M460 450 V320"/>
+</svg>

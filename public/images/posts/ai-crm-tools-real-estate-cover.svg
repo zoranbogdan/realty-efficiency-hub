@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Best AI CRM Tools for Realtors</title>
+  <desc id="desc">Comparison visual for AI CRM tools in real estate by automation, routing, and reporting fit.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4fbff"/>
+      <stop offset="100%" stop-color="#edf8f2"/>
+    </linearGradient>
+    <style>
+      .h1 { font: 700 54px Arial, sans-serif; fill: #14374f; }
+      .h2 { font: 400 24px Arial, sans-serif; fill: #3b6278; }
+      .card { fill: #fff; stroke: #2d6f95; stroke-width: 3; rx: 16; }
+      .t { font: 700 28px Arial, sans-serif; fill: #14374f; }
+      .s { font: 400 20px Arial, sans-serif; fill: #3b6278; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="90" y="110" class="h1">Best AI CRM Tools for Realtors</text>
+  <text x="90" y="155" class="h2">Comparison by follow-up automation, pipeline control, and conversion visibility</text>
+
+  <rect x="90" y="240" width="440" height="220" class="card"/>
+  <text x="130" y="310" class="t">Lead Routing</text>
+  <text x="130" y="355" class="s">Owner assignment, SLA</text>
+  <text x="130" y="387" class="s">alerts, and handoff rules</text>
+
+  <rect x="580" y="240" width="440" height="220" class="card"/>
+  <text x="620" y="310" class="t">Automation Depth</text>
+  <text x="620" y="355" class="s">Sequences, branching,</text>
+  <text x="620" y="387" class="s">pause and stop logic</text>
+
+  <rect x="1070" y="240" width="440" height="220" class="card"/>
+  <text x="1110" y="310" class="t">Reporting Clarity</text>
+  <text x="1110" y="355" class="s">Source-to-stage and</text>
+  <text x="1110" y="387" class="s">conversion analytics</text>
+
+  <rect x="220" y="540" width="1160" height="260" class="card"/>
+  <text x="270" y="615" class="t">AI CRM tools perform best with defined operations</text>
+  <text x="270" y="665" class="s">• Standardize pipeline stages and ownership rules</text>
+  <text x="270" y="700" class="s">• Trigger follow-up within minutes, not hours</text>
+  <text x="270" y="735" class="s">• Optimize weekly with qualification and booking metrics</text>
+</svg>

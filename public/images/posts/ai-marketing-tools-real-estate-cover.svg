@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AI Marketing Tools for Real Estate</title>
+  <desc id="desc">Comparison cover graphic for AI marketing stack tools for real estate teams.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5fbff"/>
+      <stop offset="100%" stop-color="#edf9f2"/>
+    </linearGradient>
+    <style>
+      .h1 { font: 700 54px Arial, sans-serif; fill: #143750; }
+      .h2 { font: 400 24px Arial, sans-serif; fill: #3a6278; }
+      .card { fill: #ffffff; stroke: #2d6f95; stroke-width: 3; rx: 16; }
+      .t { font: 700 28px Arial, sans-serif; fill: #143750; }
+      .s { font: 400 20px Arial, sans-serif; fill: #3a6278; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <text x="90" y="110" class="h1">AI Marketing Tools for Real Estate</text>
+  <text x="90" y="155" class="h2">Comparison by campaign speed, lead quality, and channel workflow fit</text>
+
+  <rect x="90" y="240" width="440" height="220" class="card"/>
+  <text x="130" y="310" class="t">Content Production</text>
+  <text x="130" y="355" class="s">Listing, email, and social</text>
+  <text x="130" y="387" class="s">creative throughput</text>
+
+  <rect x="580" y="240" width="440" height="220" class="card"/>
+  <text x="620" y="310" class="t">Campaign Automation</text>
+  <text x="620" y="355" class="s">Audience routing and</text>
+  <text x="620" y="387" class="s">follow-up timing</text>
+
+  <rect x="1070" y="240" width="440" height="220" class="card"/>
+  <text x="1110" y="310" class="t">Performance Analytics</text>
+  <text x="1110" y="355" class="s">Attribution clarity and</text>
+  <text x="1110" y="387" class="s">optimization loops</text>
+
+  <rect x="220" y="540" width="1160" height="260" class="card"/>
+  <text x="270" y="615" class="t">Marketing stack outcomes depend on process discipline</text>
+  <text x="270" y="665" class="s">• Standardize prompts, templates, and approval rules</text>
+  <text x="270" y="700" class="s">• Connect campaign triggers to CRM stages</text>
+  <text x="270" y="735" class="s">• Optimize weekly from source-to-conversion metrics</text>
+</svg>

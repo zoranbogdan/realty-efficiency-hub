@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AI Client Follow-Up System for Real Estate</title>
+  <desc id="desc">Diagram showing lead capture, AI response, qualification, and agent handoff.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3f7ff"/>
+      <stop offset="100%" stop-color="#e6fff5"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f7fbff"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 54px 'Arial', sans-serif; fill: #13334c; }
+      .subtitle { font: 400 24px 'Arial', sans-serif; fill: #355972; }
+      .box { fill: url(#card); stroke: #2a6f97; stroke-width: 3; rx: 18; }
+      .label { font: 700 28px 'Arial', sans-serif; fill: #12344d; }
+      .small { font: 400 20px 'Arial', sans-serif; fill: #355972; }
+      .arrow { stroke: #2a6f97; stroke-width: 5; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2a6f97" />
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <text x="90" y="110" class="title">AI Client Follow-Up System</text>
+  <text x="90" y="155" class="subtitle">Real estate workflow from new lead to qualified consultation</text>
+
+  <rect x="90" y="240" width="300" height="180" class="box"/>
+  <text x="130" y="305" class="label">1. Capture</text>
+  <text x="130" y="345" class="small">Website, ads, portals,</text>
+  <text x="130" y="375" class="small">open house forms</text>
+
+  <rect x="480" y="240" width="300" height="180" class="box"/>
+  <text x="520" y="305" class="label">2. AI First Touch</text>
+  <text x="520" y="345" class="small">Instant SMS + email</text>
+  <text x="520" y="375" class="small">with context</text>
+
+  <rect x="870" y="240" width="300" height="180" class="box"/>
+  <text x="910" y="305" class="label">3. Qualification</text>
+  <text x="910" y="345" class="small">Timeline, budget,</text>
+  <text x="910" y="375" class="small">readiness signals</text>
+
+  <rect x="1260" y="240" width="250" height="180" class="box"/>
+  <text x="1290" y="305" class="label">4. Handoff</text>
+  <text x="1290" y="345" class="small">Agent alerted for</text>
+  <text x="1290" y="375" class="small">live conversation</text>
+
+  <path d="M390 330 H470" class="arrow"/>
+  <path d="M780 330 H860" class="arrow"/>
+  <path d="M1170 330 H1250" class="arrow"/>
+
+  <rect x="240" y="540" width="1120" height="230" fill="#ffffff" stroke="#8ecae6" stroke-width="3" rx="20"/>
+  <text x="280" y="605" class="label">Operating Rules</text>
+  <text x="280" y="650" class="small">• Pause automation when a lead replies</text>
+  <text x="280" y="690" class="small">• Escalate hot leads to call tasks within 10 minutes</text>
+  <text x="280" y="730" class="small">• Route warm leads into behavior-based nurture sequences</text>
+</svg>

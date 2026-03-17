@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="920" viewBox="0 0 1400 920" role="img" aria-labelledby="title desc">
+  <title id="title">Listing marketing automation system diagram</title>
+  <desc id="desc">Diagram showing listing intake, campaign launch, lead routing, and optimization.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f8fbff; }
+      .node { fill: #fff; stroke: #1d5f85; stroke-width: 3; rx: 14; }
+      .title { font: 700 40px Arial, sans-serif; fill: #12344d; }
+      .txt { font: 700 22px Arial, sans-serif; fill: #12344d; }
+      .small { font: 400 18px Arial, sans-serif; fill: #355972; }
+      .line { stroke: #1d5f85; stroke-width: 4; fill: none; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0,10 3.5,0 7" fill="#1d5f85"/>
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1400" height="920"/>
+  <text class="title" x="70" y="85">Listing Marketing Automation System</text>
+
+  <rect class="node" x="90" y="200" width="280" height="120"/>
+  <text class="txt" x="150" y="260">Listing Intake</text>
+  <text class="small" x="120" y="290">Assets + compliance</text>
+
+  <rect class="node" x="420" y="200" width="280" height="120"/>
+  <text class="txt" x="455" y="260">Launch Queue</text>
+  <text class="small" x="440" y="290">Task sequencing</text>
+
+  <rect class="node" x="750" y="200" width="280" height="120"/>
+  <text class="txt" x="780" y="260">Channel Publish</text>
+  <text class="small" x="780" y="290">MLS + social + email</text>
+
+  <rect class="node" x="1080" y="200" width="280" height="120"/>
+  <text class="txt" x="1130" y="260">Lead Capture</text>
+  <text class="small" x="1110" y="290">Inquiry routing</text>
+
+  <rect class="node" x="300" y="500" width="350" height="150"/>
+  <text class="txt" x="400" y="565">Follow-Up Flow</text>
+  <text class="small" x="340" y="600">Automated + agent tasks</text>
+
+  <rect class="node" x="760" y="500" width="350" height="150"/>
+  <text class="txt" x="850" y="565">Review Loop</text>
+  <text class="small" x="800" y="600">Weekly performance tuning</text>
+
+  <path class="line" d="M370 260 H410"/>
+  <path class="line" d="M700 260 H740"/>
+  <path class="line" d="M1030 260 H1070"/>
+  <path class="line" d="M1220 320 V490"/>
+  <path class="line" d="M1080 575 H660"/>
+  <path class="line" d="M480 500 V330"/>
+</svg>

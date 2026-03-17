@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="950" viewBox="0 0 1400 950" role="img" aria-labelledby="title desc">
+  <title id="title">AI client follow-up branching diagram</title>
+  <desc id="desc">Decision tree that routes leads into hot, warm, and long-term paths.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f8fbff; }
+      .node { fill: #ffffff; stroke: #1d5f85; stroke-width: 3; rx: 14; }
+      .decision { fill: #ecf9ff; stroke: #1d5f85; stroke-width: 3; }
+      .title { font: 700 42px 'Arial', sans-serif; fill: #12344d; }
+      .txt { font: 700 24px 'Arial', sans-serif; fill: #12344d; }
+      .small { font: 400 20px 'Arial', sans-serif; fill: #355972; }
+      .line { stroke: #1d5f85; stroke-width: 4; fill: none; marker-end: url(#arrow); }
+      .label { font: 700 18px 'Arial', sans-serif; fill: #1d5f85; }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1d5f85" />
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1400" height="950"/>
+  <text class="title" x="70" y="90">AI Follow-Up Decision Logic</text>
+
+  <rect class="node" x="530" y="150" width="340" height="110"/>
+  <text class="txt" x="610" y="215">New Lead Trigger</text>
+
+  <polygon class="decision" points="700,320 900,430 700,540 500,430"/>
+  <text class="txt" x="590" y="425">Reply or High Intent?</text>
+
+  <rect class="node" x="100" y="650" width="320" height="160"/>
+  <text class="txt" x="220" y="710">Hot Path</text>
+  <text class="small" x="130" y="750">Call task now, book consult,</text>
+  <text class="small" x="130" y="780">agent takeover</text>
+
+  <rect class="node" x="540" y="650" width="320" height="160"/>
+  <text class="txt" x="650" y="710">Warm Path</text>
+  <text class="small" x="570" y="750">3-touch sequence,</text>
+  <text class="small" x="570" y="780">weekly check-in task</text>
+
+  <rect class="node" x="980" y="650" width="320" height="160"/>
+  <text class="txt" x="1060" y="710">Long-Term</text>
+  <text class="small" x="1010" y="750">Monthly nurture, quarterly</text>
+  <text class="small" x="1010" y="780">reactivation prompt</text>
+
+  <path class="line" d="M700 260 V305"/>
+  <path class="line" d="M580 500 L300 640"/>
+  <path class="line" d="M700 540 V640"/>
+  <path class="line" d="M820 500 L1100 640"/>
+
+  <text class="label" x="460" y="590">Yes + urgent</text>
+  <text class="label" x="725" y="600">No reply + some engagement</text>
+  <text class="label" x="900" y="590">No engagement</text>
+</svg>

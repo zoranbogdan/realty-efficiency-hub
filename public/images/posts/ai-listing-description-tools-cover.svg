@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AI Listing Description Generators Comparison</title>
+  <desc id="desc">A comparison visual for AI listing description generator tools for real estate agents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7fbff"/>
+      <stop offset="100%" stop-color="#eefaf4"/>
+    </linearGradient>
+    <style>
+      .h1 { font: 700 54px Arial, sans-serif; fill: #15384f; }
+      .h2 { font: 400 24px Arial, sans-serif; fill: #3c6177; }
+      .card { fill: #fff; stroke: #2c6f95; stroke-width: 3; rx: 16; }
+      .t { font: 700 28px Arial, sans-serif; fill: #15384f; }
+      .s { font: 400 20px Arial, sans-serif; fill: #3c6177; }
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="90" y="110" class="h1">AI Listing Description Generators</text>
+  <text x="90" y="155" class="h2">Comparison by output quality, speed, and MLS-ready workflow fit</text>
+
+  <rect x="90" y="240" width="440" height="220" class="card"/>
+  <text x="130" y="310" class="t">Template Quality</text>
+  <text x="130" y="355" class="s">Brand voice consistency,</text>
+  <text x="130" y="387" class="s">compliance-friendly phrasing</text>
+
+  <rect x="580" y="240" width="440" height="220" class="card"/>
+  <text x="620" y="310" class="t">Editing Speed</text>
+  <text x="620" y="355" class="s">First draft time and</text>
+  <text x="620" y="387" class="s">revision workload</text>
+
+  <rect x="1070" y="240" width="440" height="220" class="card"/>
+  <text x="1110" y="310" class="t">Workflow Fit</text>
+  <text x="1110" y="355" class="s">CRM, listing form,</text>
+  <text x="1110" y="387" class="s">team handoff readiness</text>
+
+  <rect x="220" y="540" width="1160" height="260" class="card"/>
+  <text x="270" y="615" class="t">Best results come from process + tool</text>
+  <text x="270" y="665" class="s">• Capture complete property inputs before generation</text>
+  <text x="270" y="700" class="s">• Apply brand-safe templates and banned-claims checklist</text>
+  <text x="270" y="735" class="s">• Use human review before publish</text>
+</svg>
