@@ -923,10 +923,11 @@ Ideally within minutes or hours of the initial inquiry.
 
 ## Related Articles
 
-- [AI Prompts Hub](/ai-prompts)
+- [Explore the full Real Estate AI Prompt Library](/ai-prompts)
 - [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts)
 - [Open House Marketing Prompts](/blog/open-house-marketing-prompts)
 - [Open House Follow-Up Prompts](/blog/open-house-follow-up-prompts)
+- [Real Estate CRM Automation](/solutions/real-estate-crm-automation)
 - [Real Estate Lead Follow-Up Automation](/blog/real-estate-lead-follow-up-automation)
 
 ---

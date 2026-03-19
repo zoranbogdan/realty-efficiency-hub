@@ -614,7 +614,8 @@ No. Use a base structure, then adapt based on buyer type, financing stage, and d
 
 ## Related Articles
 
-- [AI Prompts Hub](/ai-prompts)
+- [Explore the full Real Estate AI Prompt Library](/ai-prompts)
 - [Real Estate Buyer Qualification Prompts](/blog/real-estate-buyer-qualification-prompts)
 - [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts)
+- [Open House Follow-Up Prompts](/blog/open-house-follow-up-prompts)
 - [Cold Outreach Prompts for Realtors](/blog/cold-outreach-prompts-realtors)

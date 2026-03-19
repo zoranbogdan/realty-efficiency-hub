@@ -1001,10 +1001,11 @@ No. AI can save time, but the final email should always be reviewed for accuracy
 
 ## Related Articles
 
-- [AI Prompts Hub](/ai-prompts)
+- [Explore the full Real Estate AI Prompt Library](/ai-prompts)
 - [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts)
 - [Open House Follow-Up Prompts](/blog/open-house-follow-up-prompts)
 - [Social Media Prompts for Realtors](/blog/social-media-prompts-realtors)
+- [Real Estate CRM Automation](/solutions/real-estate-crm-automation)
 - [Automating Realtor Email Follow-Ups](/blog/realtor-email-automation)
 
 ---

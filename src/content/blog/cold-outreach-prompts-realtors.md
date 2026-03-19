@@ -617,7 +617,8 @@ No. Keep the core angle consistent, but adapt format and length for email, text,
 
 ## Related Articles
 
-- [AI Prompts Hub](/ai-prompts)
+- [Explore the full Real Estate AI Prompt Library](/ai-prompts)
 - [Real Estate Email Prompts](/blog/real-estate-email-prompts)
 - [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts)
 - [Social Media Prompts for Realtors](/blog/social-media-prompts-realtors)
+- [Real Estate CRM Automation](/solutions/real-estate-crm-automation)

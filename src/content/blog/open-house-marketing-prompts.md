@@ -1011,10 +1011,11 @@ Most agents begin marketing an open house **3–5 days before the event**.
 
 ## Related Articles
 
-- [AI Prompts Hub](/ai-prompts)
+- [Explore the full Real Estate AI Prompt Library](/ai-prompts)
 - [Open House Follow-Up Prompts](/blog/open-house-follow-up-prompts)
 - [Real Estate Email Prompts](/blog/real-estate-email-prompts)
 - [Real Estate Marketing Prompts](/blog/real-estate-marketing-prompts)
+- [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts)
 - [Open House Lead Automation Workflow](/blog/open-house-lead-automation)
 
 ---

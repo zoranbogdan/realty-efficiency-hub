@@ -950,10 +950,11 @@ No. AI can speed up content creation, but the strategy, targeting, and final jud
 
 ## Related Articles
 
-- [AI Prompts Hub](/ai-prompts)
+- [Explore the full Real Estate AI Prompt Library](/ai-prompts)
 - [Social Media Prompts for Realtors](/blog/social-media-prompts-realtors)
 - [Real Estate Email Prompts](/blog/real-estate-email-prompts)
 - [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts)
+- [Real Estate CRM Automation](/solutions/real-estate-crm-automation)
 - [Automating Realtor Email Follow-Ups](/blog/realtor-email-automation)
 
 ---

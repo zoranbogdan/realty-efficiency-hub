@@ -11,70 +11,213 @@ const cleanSlug = (id: string) => id.replace(/\.md$/, "");
 const promptPosts = allPosts
   .filter((post) => post.data.cluster === "AI Prompts")
   .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+
+const categories = [
+  {
+    id: "listings",
+    navLabel: "Listings",
+    title: "Listing Prompts",
+    intro:
+      "Use these prompts to turn raw property notes into listing copy, hooks, and launch assets without starting from a blank page.",
+    ctaLabel: "See all listing prompts",
+    ctaHref: "/blog/real-estate-listing-description-prompts",
+    samples: [
+      "Write an MLS-ready listing description for a 4-bedroom home in [neighborhood]. Highlight [top features], keep it under 180 words, and use a polished but natural tone.",
+      "Turn these property notes into 3 listing headline options and 2 opening paragraphs for buyers looking in [market]. Focus on lifestyle and standout features.",
+      "Create a 'just listed' social caption, a short email teaser, and a 30-second video script for this home: [paste details]. Keep the message consistent across all 3 assets.",
+    ],
+  },
+  {
+    id: "follow-up",
+    navLabel: "Follow-Up",
+    title: "Follow-Up Prompts",
+    intro:
+      "Keep momentum after inquiries, showings, and open houses with prompts that make follow-up faster and more personalized.",
+    ctaLabel: "See all follow-up prompts",
+    ctaHref: "/blog/real-estate-follow-up-text-prompts",
+    bridgeLabel: "Want to automate this?",
+    bridgeHref: "/solutions/real-estate-lead-follow-up-automation",
+    bridgeText: "See the lead follow-up automation page",
+    samples: [
+      "Write 5 follow-up text messages for a buyer lead who asked about [property] but has not replied in 3 days. Keep each message under 45 words and include one easy next step.",
+      "Create a same-day follow-up email for an open house visitor who liked the kitchen and backyard but did not commit to a second showing.",
+      "Draft a warm follow-up sequence for a lead who said they are planning to buy in [timeline]. Include one first-touch text, one email, and one check-in message for next week.",
+    ],
+  },
+  {
+    id: "email",
+    navLabel: "Email",
+    title: "Email Prompts",
+    intro:
+      "Build email drafts for inquiries, nurture campaigns, seller updates, and appointment follow-up without losing your voice.",
+    ctaLabel: "See all email prompts",
+    ctaHref: "/blog/real-estate-email-prompts",
+    samples: [
+      "Write a buyer inquiry response email for someone who asked about [property]. Thank them, answer their question, and invite them to schedule a showing.",
+      "Create a seller update email summarizing showing activity, buyer feedback, and one recommended next action using these notes: [paste notes].",
+      "Draft a 3-email nurture sequence for leads interested in homes in [area]. Keep the tone helpful, local, and low pressure.",
+    ],
+  },
+  {
+    id: "social",
+    navLabel: "Social",
+    title: "Social Prompts",
+    intro:
+      "Generate captions, hooks, and campaign ideas for Instagram, Facebook, LinkedIn, and short-form video around real estate content.",
+    ctaLabel: "See all social prompts",
+    ctaHref: "/blog/social-media-prompts-realtors",
+    samples: [
+      "Create 5 Instagram caption ideas for a new listing in [neighborhood]. Mix educational, lifestyle, and direct-response angles.",
+      "Write a LinkedIn post for real estate prospects about what buyers should know before touring homes in [market]. Keep it practical and credible.",
+      "Turn this property description into a Reel script with a 5-second hook, 3 talking points, and a CTA to book a private tour: [paste description].",
+    ],
+  },
+  {
+    id: "crm-automation",
+    navLabel: "CRM & Automation",
+    title: "CRM & Automation Prompts",
+    intro:
+      "Use prompts to map workflows, write nurture logic, and turn ad-hoc follow-up into repeatable systems your team can actually run.",
+    ctaLabel: "See all CRM & automation guides",
+    ctaHref: "/solutions/real-estate-crm-automation",
+    bridgeLabel: "Scale this with systems",
+    bridgeHref: "/solutions/real-estate-crm-automation",
+    bridgeText: "Explore the CRM automation page",
+    samples: [
+      "Design a CRM workflow for new buyer leads from Facebook ads. Include assignment rules, first-touch actions, reminder timing, and stop conditions.",
+      "Create a lead qualification sequence for a real estate team using SMS and email. Segment contacts into hot, warm, and nurture stages based on replies.",
+      "Write a prompt I can reuse to audit my current lead follow-up process and show where tasks, tags, or handoffs should be automated.",
+    ],
+  },
+];
 ---
 
 <MainLayout
-  title="AI Prompts for Real Estate Agents"
-  description="AI prompts for real estate agents to write listings, emails, follow-ups, marketing content, and more."
+  title="Real Estate AI Prompts (Free Library, Updated 2026)"
+  description="50+ real estate AI prompts for listings, follow-ups, emails, and CRM workflows. Free, copy/paste, no signup."
 >
-  <section class="pillar">
-    <div class="eyebrow">Cluster Hub</div>
+  <section class="library-shell">
+    <div class="hero-card">
+      <div class="eyebrow">Live Prompt Library</div>
+      <h1>Real Estate AI Prompt Library (Free, Copy/Paste)</h1>
+      <p class="intro">
+        Continuously updated collection of prompts for listings, follow-ups, emails, and automation.
+        No signup required.
+      </p>
 
-    <h1>AI Prompts for Real Estate Agents</h1>
-
-    <p class="intro">
-      AI tools like ChatGPT can help real estate agents write listing descriptions,
-      follow-up messages, email drafts, marketing copy, and other client-facing
-      content much faster.
-    </p>
-
-    <p class="intro">
-      This page collects our best AI prompt guides for real estate professionals.
-      Use it as your central hub to explore prompt templates by workflow and use case.
-    </p>
-
-    <div class="summary-box">
-      <h2>What you’ll find here</h2>
-      <ul>
-        <li>Listing description prompts</li>
-        <li>Open house marketing prompts</li>
-        <li>Open house follow-up prompts</li>
-        <li>Real estate text message prompts</li>
-        <li>Email and social media prompts</li>
+      <ul class="trust-list" aria-label="Trust signals">
+        <li>✅ Free to use</li>
+        <li>✅ No signup</li>
+        <li>🔄 Updated regularly</li>
       </ul>
+
+      <p class="last-updated">Last updated: March 2026</p>
     </div>
 
-    <h2 class="section-title">AI Prompt Articles</h2>
+    <nav class="jump-nav" aria-label="Prompt categories">
+      {categories.map((category) => (
+        <a href={`#${category.id}`}>{category.navLabel}</a>
+      ))}
+    </nav>
 
-    <div class="post-grid">
-      {promptPosts.map((post) => (
-        <article class="post-card">
-          <div class="card-top">
-            <ContentTypeBadge type={post.data.contentType as ContentType} compact={true} />
+    <div class="category-stack">
+      {categories.map((category) => (
+        <section id={category.id} class="category-card">
+          <div class="section-head">
+            <div>
+              <h2>{category.title}</h2>
+              <p class="section-intro">{category.intro}</p>
+            </div>
+            <a class="section-cta" href={category.ctaHref}>{category.ctaLabel}</a>
           </div>
-          <p class="post-date">
-            {post.data.pubDate.toLocaleDateString("en-US", {
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-            })}
-          </p>
 
-          <h3>
-            <a href={`/blog/${cleanSlug(post.id)}`}>{post.data.title}</a>
-          </h3>
+          <div class="prompt-grid">
+            {category.samples.map((sample) => (
+              <pre class="prompt-block"><code>{sample}</code></pre>
+            ))}
+          </div>
 
-          <p class="post-description">{post.data.description}</p>
-        </article>
+          {category.bridgeLabel && (
+            <p class="bridge-link">
+              <strong>{category.bridgeLabel}</strong>{" "}
+              <a href={category.bridgeHref}>{category.bridgeText}</a>
+            </p>
+          )}
+        </section>
       ))}
     </div>
+
+    <section class="usage-card">
+      <div class="section-head simple">
+        <div>
+          <h2>How to use these prompts</h2>
+        </div>
+      </div>
+
+      <ol class="steps-list">
+        <li>Copy</li>
+        <li>Paste into ChatGPT</li>
+        <li>Adjust inputs</li>
+      </ol>
+
+      <h2 class="secondary-title">When prompts are not enough</h2>
+      <p class="support-links">
+        <a href="/solutions/real-estate-crm-automation">CRM automation page</a>
+        <span> · </span>
+        <a href="/solutions/real-estate-lead-follow-up-automation">Lead follow-up page</a>
+      </p>
+    </section>
+
+    <section class="library-index">
+      <h2>Full Prompt Library</h2>
+      <p class="section-intro">
+        Browse every published prompt guide below. New articles will automatically appear here as the library expands.
+      </p>
+
+      <div class="post-grid">
+        {promptPosts.map((post) => (
+          <article class="post-card">
+            <div class="card-top">
+              <ContentTypeBadge type={post.data.contentType as ContentType} compact={true} />
+            </div>
+            <p class="post-date">
+              {post.data.pubDate.toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}
+            </p>
+
+            <h3>
+              <a href={`/blog/${cleanSlug(post.id)}`}>{post.data.title}</a>
+            </h3>
+
+            <p class="post-description">{post.data.description}</p>
+          </article>
+        ))}
+      </div>
+    </section>
   </section>
 
   <style>
-    .pillar {
-      max-width: 980px;
+    .library-shell {
+      max-width: 1080px;
       margin: 0 auto;
-      padding: 60px 20px;
+      padding: 48px 20px 72px;
+    }
+
+    .hero-card,
+    .category-card,
+    .usage-card {
+      background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+      border: 1px solid #dbe4ee;
+      border-radius: 24px;
+      box-shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
+    }
+
+    .hero-card {
+      padding: 32px;
+      margin-bottom: 24px;
     }
 
     .eyebrow {
@@ -82,67 +225,199 @@ const promptPosts = allPosts
       margin-bottom: 14px;
       padding: 6px 12px;
       border-radius: 999px;
-      background: #eef4ff;
-      color: #1d4ed8;
+      background: #e0f2fe;
+      color: #075985;
       font-size: 13px;
       font-weight: 700;
       letter-spacing: 0.02em;
+      text-transform: uppercase;
     }
 
     h1 {
-      font-size: 48px;
-      line-height: 1.1;
-      margin: 0 0 20px 0;
+      margin: 0 0 16px 0;
+      font-size: 52px;
+      line-height: 1.05;
       color: #0f172a;
+      max-width: 860px;
+    }
+
+    .intro,
+    .section-intro,
+    .post-description {
+      color: #475569;
+      line-height: 1.7;
     }
 
     .intro {
+      max-width: 760px;
       font-size: 20px;
-      line-height: 1.7;
+      margin: 0 0 20px 0;
+    }
+
+    .trust-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 18px;
+      margin: 0 0 18px 0;
+      padding: 0;
+      list-style: none;
+      color: #0f172a;
+      font-weight: 600;
+    }
+
+    .last-updated {
+      margin: 0;
       color: #334155;
-      max-width: 800px;
-      margin-bottom: 18px;
+      font-size: 15px;
+      font-weight: 600;
     }
 
-    .summary-box {
-      margin: 36px 0 46px 0;
-      padding: 24px;
-      background: #f8fbff;
-      border: 1px solid #dbe4ee;
-      border-radius: 18px;
+    .jump-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 28px;
     }
 
-    .summary-box h2 {
-      margin-top: 0;
-      font-size: 24px;
+    .jump-nav a,
+    .section-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      padding: 10px 16px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .jump-nav a {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      color: #1d4ed8;
+    }
+
+    .jump-nav a:hover,
+    .section-cta:hover {
+      transform: translateY(-1px);
+    }
+
+    .category-stack {
+      display: grid;
+      gap: 22px;
+      margin-bottom: 26px;
+    }
+
+    .category-card,
+    .usage-card {
+      padding: 28px;
+      scroll-margin-top: 100px;
+    }
+
+    .section-head {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .section-head.simple {
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      margin: 0 0 10px 0;
+      font-size: 32px;
+      line-height: 1.15;
       color: #0f172a;
     }
 
-    .summary-box ul {
+    .section-intro {
       margin: 0;
-      padding-left: 20px;
-      color: #334155;
-      line-height: 1.8;
+      max-width: 720px;
       font-size: 17px;
     }
 
-    .section-title {
-      font-size: 32px;
-      margin: 0 0 24px 0;
+    .section-cta {
+      background: #0f172a;
+      color: #ffffff;
+      white-space: nowrap;
+    }
+
+    .prompt-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .prompt-block {
+      margin: 0;
+      padding: 18px;
+      border-radius: 18px;
+      border: 1px solid #dbe4ee;
+      background: #ffffff;
       color: #0f172a;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 14px;
+      line-height: 1.65;
+      white-space: pre-wrap;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.65);
+    }
+
+    .bridge-link,
+    .support-links {
+      margin: 18px 0 0 0;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #334155;
+    }
+
+    .bridge-link a,
+    .support-links a,
+    .post-card h3 a {
+      color: #1d4ed8;
+      text-decoration: none;
+    }
+
+    .bridge-link a:hover,
+    .support-links a:hover,
+    .post-card h3 a:hover {
+      text-decoration: underline;
+    }
+
+    .steps-list {
+      margin: 0;
+      padding-left: 22px;
+      color: #0f172a;
+      font-size: 17px;
+      line-height: 1.9;
+      font-weight: 600;
+    }
+
+    .secondary-title {
+      margin-top: 22px;
+    }
+
+    .library-index {
+      margin-top: 36px;
     }
 
     .post-grid {
       display: grid;
-      gap: 20px;
+      gap: 18px;
+      margin-top: 20px;
     }
 
     .post-card {
-      background: white;
+      background: #ffffff;
       border: 1px solid #dbe4ee;
       border-radius: 18px;
       padding: 24px;
       box-shadow: 0 6px 20px rgba(15, 23, 42, 0.04);
+    }
+
+    .card-top {
+      margin-bottom: 10px;
     }
 
     .post-date {
@@ -151,47 +426,51 @@ const promptPosts = allPosts
       color: #64748b;
     }
 
-    .card-top {
-      margin-bottom: 10px;
-    }
-
     .post-card h3 {
       margin: 0 0 12px 0;
       font-size: 24px;
       line-height: 1.3;
-    }
-
-    .post-card h3 a {
       color: #0f172a;
-      text-decoration: none;
-    }
-
-    .post-card h3 a:hover {
-      color: #2563eb;
     }
 
     .post-description {
       margin: 0;
       font-size: 17px;
-      line-height: 1.7;
-      color: #475569;
     }
 
-    @media (max-width: 720px) {
+    @media (max-width: 900px) {
+      .prompt-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 780px) {
+      .library-shell {
+        padding-top: 32px;
+      }
+
       h1 {
-        font-size: 38px;
+        font-size: 40px;
       }
 
       .intro {
         font-size: 18px;
       }
 
-      .section-title {
+      .section-head {
+        flex-direction: column;
+      }
+
+      .section-cta {
+        white-space: normal;
+      }
+
+      h2 {
         font-size: 28px;
       }
 
       .post-card h3 {
-        font-size: 21px;
+        font-size: 22px;
       }
     }
   </style>

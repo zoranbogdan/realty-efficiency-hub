@@ -689,7 +689,8 @@ Most MLS platforms have a character limit, but a standard effective description 
 
 ## Related Articles
 
-- [AI Prompts Hub](/ai-prompts)
+- [Explore the full Real Estate AI Prompt Library](/ai-prompts)
+- [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts)
 - [Real Estate Email Prompts](/blog/real-estate-email-prompts)
 - [Social Media Prompts for Realtors](/blog/social-media-prompts-realtors)
 - [Open House Follow-Up Prompts](/blog/open-house-follow-up-prompts)

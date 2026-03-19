@@ -780,9 +780,10 @@ Yes. AI can generate follow-up emails, texts, and nurture messages when provided
 
 ## Related Articles
 
-- [AI Prompts Hub](/ai-prompts)
+- [Explore the full Real Estate AI Prompt Library](/ai-prompts)
 - [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts)
 - [Real Estate Email Prompts](/blog/real-estate-email-prompts)
+- [Real Estate CRM Automation](/solutions/real-estate-crm-automation)
 - [Open House Lead Automation Workflow](/blog/open-house-lead-automation)
 
 ---
