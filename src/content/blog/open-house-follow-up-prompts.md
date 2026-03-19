@@ -28,6 +28,8 @@ Below you'll find **25 copy-paste open house follow-up prompts** you can use rig
 
 ![Open House Follow-Up Prompts cover image](/images/posts/open-house-follow-up-prompts-cover.webp)
 
+If you want the full workflow behind these prompts, start with [Open House Lead Automation](/solutions/open-house-lead-automation) before using the templates below.
+
 ---
 
 ## What Are Open House Follow-Up Prompts?

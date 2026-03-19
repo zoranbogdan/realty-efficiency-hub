@@ -29,6 +29,8 @@ Below you'll find **25 copy-paste open house marketing prompts** that real estat
 
 ![Open House Marketing Prompts cover image](/images/posts/open-house-marketing-prompts-cover.webp)
 
+If you want to connect pre-event promotion to post-event follow-up, start with [Open House Lead Automation](/solutions/open-house-lead-automation) for the bigger workflow context.
+
 ---
 
 ## What Are Open House Marketing Prompts?

@@ -28,6 +28,8 @@ Below you'll find **25 copy-paste real estate email prompts** you can use right 
 
 ![Real Estate Email Prompts cover image](/images/posts/real-estate-email-prompts-cover.webp)
 
+If you want the bigger operating model behind these prompts, start with [Real Estate Email Automation](/solutions/real-estate-email-automation) before using the templates below.
+
 ---
 
 ## What Are Real Estate Email Prompts?

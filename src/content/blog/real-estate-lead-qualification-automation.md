@@ -32,6 +32,8 @@ This guide shows how to build a reliable lead qualification system for real esta
 
 ![Lead Qualification Automation for Realtors cover image](/images/posts/real-estate-lead-qualification-automation-cover.webp)
 
+For the bigger operating model around routing, tasking, and stage control, see [Real Estate CRM Automation](/solutions/real-estate-crm-automation) before diving deeper into qualification logic here.
+
 ---
 
 ## What Lead Qualification Automation Means in Real Estate

@@ -24,6 +24,8 @@ Below are **25 copy-paste buyer qualification prompts for real estate agents**. 
 
 ![Real estate buyer qualification prompts cover image with structured scoring and decision workflow style](/images/posts/real-estate-buyer-qualification-prompts-cover.webp)
 
+If you want the system behind these prompts, start with [Real Estate Lead Qualification Automation](/solutions/real-estate-lead-qualification-automation) before diving into the templates.
+
 ---
 
 ## How to Get the Best Results

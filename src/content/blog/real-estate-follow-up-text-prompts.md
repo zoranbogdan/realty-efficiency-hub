@@ -31,6 +31,8 @@ Below you'll find **25 copy-paste prompts** real estate agents can use to genera
 
 ![Real Estate Follow-Up Text Prompts cover image](/images/posts/real-estate-follow-up-text-prompts-cover.webp)
 
+If you want to see how these prompts fit into the bigger workflow, start with [Real Estate Lead Follow-Up Automation](/solutions/real-estate-lead-follow-up-automation) for the condensed system overview.
+
 ---
 
 ## What Are Real Estate Follow-Up Text Prompts?

@@ -28,6 +28,8 @@ Below you'll find **25 copy-paste real estate marketing prompts** you can use im
 
 ![Real Estate Marketing Prompts cover image](/images/posts/real-estate-marketing-prompts-cover.webp)
 
+If you are trying to connect prompts to a real campaign system, start with [Real Estate Marketing Automation](/solutions/real-estate-marketing-automation) for the bigger workflow context.
+
 ---
 
 ## What Are Real Estate Marketing Prompts?

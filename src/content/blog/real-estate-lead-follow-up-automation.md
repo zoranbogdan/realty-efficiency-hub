@@ -28,6 +28,8 @@ This guide shows you how to build a practical automation system that is fast, co
 
 ![Real Estate Lead Follow-Up Automation cover image](/images/posts/real-estate-lead-follow-up-automation-cover.webp)
 
+If you want the condensed version first, see [Real Estate Lead Follow-Up Automation](/solutions/real-estate-lead-follow-up-automation) for the short-form solution page before diving into the full workflow.
+
 ---
 
 ## What Real Estate Lead Follow-Up Automation Actually Means

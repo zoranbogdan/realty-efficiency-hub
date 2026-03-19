@@ -28,6 +28,8 @@ A strong workflow gives you immediate capture, consistent segmentation, and time
 
 This guide explains how to design an automation system that turns open house traffic into measurable pipeline outcomes.
 
+For the broader workflow beyond open houses, see [Open House Lead Automation](/solutions/open-house-lead-automation) for the short-form solution page and [Real Estate Lead Follow-Up Automation](/solutions/real-estate-lead-follow-up-automation), which covers the core system this article plugs into.
+
 ---
 
 ## What an Open House Automation Workflow Should Do

@@ -1,0 +1,360 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+
+const faqs = [
+  {
+    question: "What is real estate email automation?",
+    answer:
+      "Real estate email automation is a workflow that sends timely, stage-appropriate email follow-up based on new inquiries, lead behavior, or nurture needs without relying on manual drafting every time.",
+  },
+  {
+    question: "What should be automated first in realtor email workflows?",
+    answer:
+      "Start with new lead acknowledgment, short nurture sequences, re-engagement emails, and task triggers tied to replies or clicks before building anything overly complex.",
+  },
+  {
+    question: "Can email automation still feel personal?",
+    answer:
+      "Yes. The best systems use clear segmentation, specific context, and short human-sounding copy, then hand off to live outreach when intent rises.",
+  },
+  {
+    question: "When does email automation help most in real estate?",
+    answer:
+      "It helps most when follow-up volume is high enough that agents struggle to stay consistent, especially across new leads, nurture, and longer buying or selling cycles.",
+  },
+];
+---
+
+<MainLayout
+  title="Real Estate Email Automation | Realty Efficiency Hub"
+  description="Real estate email automation for faster follow-up, stage-based nurture, more consistent messaging, and cleaner handoff into live agent conversations."
+  image="/images/posts/realtor-email-automation-cover.webp"
+>
+  <section class="solution-shell">
+    <div class="eyebrow">Solution</div>
+    <div class="hero-grid">
+      <div>
+        <h1>Real Estate Email Automation</h1>
+        <p class="intro">
+          Real estate email automation helps agents follow up faster, stay consistent across the pipeline,
+          and keep nurture moving without writing every message from scratch. It works best when email is treated
+          as part of a larger follow-up system, not as an isolated newsletter tool.
+        </p>
+
+        <div class="hero-actions">
+          <a href="/blog/realtor-email-automation" class="primary-link">See the email workflow guide</a>
+          <a href="/blog/real-estate-email-prompts" class="secondary-link">See email prompt examples</a>
+        </div>
+      </div>
+
+      <figure class="hero-visual">
+        <img
+          src="/images/posts/realtor-email-automation-cover.webp"
+          alt="Real estate email automation workflow visual"
+          loading="eager"
+        />
+      </figure>
+    </div>
+
+    <section class="quick-answer">
+      <h2>The Short Version</h2>
+      <p>
+        A practical real estate email automation workflow should acknowledge new leads quickly,
+        send the right nurture emails based on readiness, stop or branch when a lead replies,
+        and create a human next step when engagement shows real intent.
+      </p>
+
+      <div class="glance-grid">
+        <article class="glance-card">
+          <h3>Best for</h3>
+          <p>Teams that rely on email heavily for lead follow-up, nurture, listing updates, or buyer and seller communication.</p>
+        </article>
+        <article class="glance-card">
+          <h3>Main outcome</h3>
+          <p>More reliable email follow-up without the drop-off that happens when everything depends on memory and bandwidth.</p>
+        </article>
+        <article class="glance-card">
+          <h3>What to automate first</h3>
+          <p>New-lead reply emails, short nurture sequences, and behavior-based task triggers tied to clicks or replies.</p>
+        </article>
+      </div>
+    </section>
+
+    <div class="summary-box">
+      <h2>What this solution should improve</h2>
+      <ul>
+        <li>faster email follow-up after inquiries and listing activity</li>
+        <li>more consistent nurture across warm and long-cycle leads</li>
+        <li>clearer handoff from email engagement into live outreach</li>
+        <li>less manual drafting for repetitive but important communication</li>
+      </ul>
+    </div>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <h2>How the email automation should work</h2>
+          <p class="section-intro">
+            Readers should be able to understand the idea quickly: email handles structure and continuity,
+            while the agent steps in when the lead shows intent or needs a real conversation.
+          </p>
+        </div>
+        <img
+          class="inline-visual"
+          src="/images/posts/real-estate-email-prompts-cover.webp"
+          alt="Real estate email prompts and nurture workflow visual"
+          loading="lazy"
+        />
+      </div>
+
+      <div class="steps-grid">
+        <article class="step-card">
+          <h3>1. Respond early</h3>
+          <p>Every new lead should receive a fast email acknowledgment with one useful next step and one simple question.</p>
+        </article>
+        <article class="step-card">
+          <h3>2. Segment the follow-up</h3>
+          <p>New leads, listing inquiries, active buyers, and longer-cycle nurture contacts should not all receive the same sequence.</p>
+        </article>
+        <article class="step-card">
+          <h3>3. Watch engagement signals</h3>
+          <p>Replies and meaningful clicks should trigger tasks or handoff so human follow-up happens at the right moment.</p>
+        </article>
+        <article class="step-card">
+          <h3>4. Keep nurture alive</h3>
+          <p>Email automation should maintain light, helpful contact over time without becoming generic or overbearing.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Where teams usually get stuck</h2>
+      <p>
+        Many agents send one email after an inquiry and then lose consistency. The problem is usually not email itself.
+        It is the lack of structure around timing, segmentation, and follow-up ownership.
+      </p>
+      <p>
+        Real estate email automation works best when it supports the broader lead follow-up workflow instead of trying to replace it.
+      </p>
+    </section>
+
+    <section class="section faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        {faqs.map((faq) => (
+          <article class="faq-item">
+            <h3>{faq.question}</h3>
+            <p>{faq.answer}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="section related">
+      <h2>Supporting articles published by March 19, 2026</h2>
+      <div class="related-grid">
+        <a href="/blog/realtor-email-automation">Automating Realtor Email Follow-Ups</a>
+        <a href="/blog/real-estate-email-prompts">Real Estate Email Prompts</a>
+        <a href="/blog/realtor-email-automation-diy-vs-done-for-you">DIY vs Done-For-You Email Automation</a>
+        <a href="/blog/real-estate-lead-follow-up-automation">Real Estate Lead Follow-Up Automation</a>
+      </div>
+    </section>
+  </section>
+
+  <script is:inline type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  })} />
+
+  <style>
+    .solution-shell {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 24px 0;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: #eef4ff;
+      color: #1d4ed8;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.9fr);
+      gap: 24px;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      margin: 0 0 16px 0;
+      font-size: 50px;
+      line-height: 1.04;
+      color: #0f172a;
+    }
+
+    .intro {
+      margin: 0;
+      font-size: 19px;
+      line-height: 1.75;
+      color: #475569;
+      max-width: 820px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+
+    .primary-link,
+    .secondary-link {
+      border-radius: 12px;
+      padding: 12px 16px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .primary-link {
+      background: #2563eb;
+      color: #ffffff;
+    }
+
+    .secondary-link {
+      background: #ffffff;
+      border: 1px solid #dbe4ee;
+      color: #0f172a;
+    }
+
+    .hero-visual,
+    .summary-box,
+    .quick-answer,
+    .section {
+      margin: 0 0 22px 0;
+      padding: 24px;
+      background: #ffffff;
+      border: 1px solid #dbe4ee;
+      border-radius: 20px;
+      box-shadow: 0 10px 28px rgba(15, 23, 42, 0.05);
+    }
+
+    .hero-visual {
+      padding: 14px;
+      background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+    }
+
+    .hero-visual img,
+    .inline-visual {
+      width: 100%;
+      display: block;
+      border-radius: 16px;
+    }
+
+    h2 {
+      margin: 0 0 12px 0;
+      font-size: 30px;
+      color: #0f172a;
+    }
+
+    h3 {
+      margin: 0 0 8px 0;
+      font-size: 20px;
+      color: #0f172a;
+    }
+
+    p,
+    li {
+      color: #475569;
+      font-size: 17px;
+      line-height: 1.75;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .glance-grid,
+    .steps-grid {
+      display: grid;
+      gap: 14px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      margin-top: 18px;
+    }
+
+    .glance-card,
+    .step-card,
+    .faq-item {
+      padding: 18px;
+      border-radius: 16px;
+      background: #f8fbff;
+      border: 1px solid #dbe4ee;
+    }
+
+    .glance-card p,
+    .step-card p,
+    .faq-item p,
+    .section-intro {
+      margin: 0;
+    }
+
+    .faq-item p {
+      margin-top: 8px;
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(240px, 0.8fr);
+      gap: 18px;
+      align-items: start;
+      margin-bottom: 18px;
+    }
+
+    .faq-list,
+    .related-grid {
+      display: grid;
+      gap: 12px;
+    }
+
+    .related-grid a {
+      text-decoration: none;
+      color: #1d4ed8;
+      font-weight: 700;
+    }
+
+    .related-grid a:hover {
+      color: #1e40af;
+    }
+
+    @media (max-width: 820px) {
+      .hero-grid,
+      .section-head {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+
+      .intro {
+        font-size: 18px;
+      }
+    }
+  </style>
+</MainLayout>

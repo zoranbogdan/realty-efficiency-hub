@@ -36,6 +36,8 @@ This comparison helps you choose the right path based on team capacity, risk tol
 
 ![Realtor Email Automation: DIY vs Done-For-You cover image](/images/posts/realtor-email-automation-diy-vs-done-for-you-cover.webp)
 
+If you want the short-form system overview first, see [Real Estate Email Automation](/solutions/real-estate-email-automation) before comparing implementation paths.
+
 ---
 
 ## What We Are Comparing

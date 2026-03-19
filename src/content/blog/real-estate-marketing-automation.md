@@ -37,6 +37,8 @@ A strong workflow coordinates campaign triggers, channel sequencing, lead handof
 
 This guide explains how to design and run a practical marketing automation system for real estate teams.
 
+If you want the short-form answer first, start with [Real Estate Marketing Automation](/solutions/real-estate-marketing-automation) before using this article as the detailed workflow reference.
+
 ---
 
 ## What Marketing Automation Should Do
