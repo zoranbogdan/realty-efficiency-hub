@@ -10,6 +10,7 @@ export const founder = {
   description:
     "Automation architect focused on GoHighLevel, Make.com, CRM workflows, and practical systems for real estate teams.",
   sameAs: [
+    "https://www.linkedin.com/in/viorelbogdan/",
     "https://zoran.cloud",
     "https://2bconsultingservices.com",
   ],
