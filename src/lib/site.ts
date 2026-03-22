@@ -5,7 +5,7 @@ export const siteDescription =
   "AI and automation systems for modern real estate teams, with solution pages, workflow guides, and prompt libraries.";
 
 export const founder = {
-  name: "Viorel Bogdan",
+  name: "Viorel Zoran BOGDAN",
   role: "Founder",
   description:
     "Automation architect focused on GoHighLevel, Make.com, CRM workflows, and practical systems for real estate teams.",
