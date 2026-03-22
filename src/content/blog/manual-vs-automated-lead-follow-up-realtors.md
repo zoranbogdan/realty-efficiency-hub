@@ -2,7 +2,8 @@
 title: "Manual vs Automated Lead Follow-Up for Realtors: What Actually Converts Better?"
 description: "A practical comparison of manual and automated lead follow-up for realtors, including speed, conversion impact, cost, and when to use each model."
 pubDate: 2026-02-03
-author: "Realty Efficiency Hub"
+updatedDate: 2026-03-22
+author: "Viorel Bogdan"
 cluster: "Automation Workflows"
 contentType: "comparison-article"
 coverImage: "/images/posts/manual-vs-automated-lead-follow-up-realtors-cover.webp"

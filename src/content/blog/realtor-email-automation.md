@@ -2,7 +2,8 @@
 title: "Automating Realtor Email Follow-Ups: Complete Workflow Guide"
 description: "A practical guide to real estate email automation workflows for faster follow-up, better lead nurturing, and higher conversion without generic messaging."
 pubDate: 2026-03-06
-author: "Realty Efficiency Hub"
+updatedDate: 2026-03-22
+author: "Viorel Bogdan"
 cluster: "Automation Workflows"
 contentType: "workflow-guide"
 coverImage: "/images/posts/realtor-email-automation-cover.webp"

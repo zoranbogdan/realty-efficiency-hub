@@ -2,7 +2,8 @@
 title: "Listing Marketing Automation System: Complete Workflow Guide"
 description: "Learn how to build a listing marketing automation system for real estate with launch sequencing, channel execution, lead routing, and optimization loops."
 pubDate: 2026-03-20
-author: "Realty Efficiency Hub"
+updatedDate: 2026-03-22
+author: "Viorel Bogdan"
 cluster: "Automation Workflows"
 contentType: "workflow-guide"
 coverImage: "/images/posts/listing-marketing-automation-cover.svg"

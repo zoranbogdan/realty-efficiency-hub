@@ -2,7 +2,8 @@
 title: "25 Real Estate Marketing Prompts for ChatGPT (Copy & Paste)"
 description: "25 practical ChatGPT prompts real estate agents can use to create better real estate marketing copy, campaign ideas, and promotional content faster."
 pubDate: 2026-02-06
-author: "Realty Efficiency Hub"
+updatedDate: 2026-03-22
+author: "Viorel Bogdan"
 cluster: "AI Prompts"
 contentType: "prompt-guide"
 coverImage: "/images/posts/real-estate-marketing-prompts-cover.webp"

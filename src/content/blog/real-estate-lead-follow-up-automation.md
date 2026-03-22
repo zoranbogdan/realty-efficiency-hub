@@ -2,7 +2,8 @@
 title: "Real Estate Lead Follow-Up Automation: Complete Workflow Guide"
 description: "Learn how to design a real estate lead follow-up automation workflow that improves speed-to-lead, qualification quality, and conversion without sounding robotic."
 pubDate: 2026-03-03
-author: "Realty Efficiency Hub"
+updatedDate: 2026-03-22
+author: "Viorel Bogdan"
 cluster: "Automation Workflows"
 contentType: "workflow-guide"
 coverImage: "/images/posts/real-estate-lead-follow-up-automation-cover.webp"

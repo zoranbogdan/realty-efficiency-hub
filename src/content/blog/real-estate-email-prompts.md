@@ -2,7 +2,8 @@
 title: "25 Real Estate Email Prompts for ChatGPT (Copy & Paste)"
 description: "25 practical ChatGPT prompts real estate agents can use to write better client emails, listing emails, nurture sequences, and follow-ups faster."
 pubDate: 2026-01-30
-author: "Realty Efficiency Hub"
+updatedDate: 2026-03-22
+author: "Viorel Bogdan"
 cluster: "AI Prompts"
 contentType: "prompt-guide"
 coverImage: "/images/posts/real-estate-email-prompts-cover.webp"

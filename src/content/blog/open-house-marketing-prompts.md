@@ -2,7 +2,8 @@
 title: "25 Open House Marketing Prompts for ChatGPT (Copy & Paste)"
 description: "25 practical ChatGPT prompts real estate agents can use to promote open houses, attract more visitors, and market listings effectively."
 pubDate: 2026-02-13
-author: "Realty Efficiency Hub"
+updatedDate: 2026-03-22
+author: "Viorel Bogdan"
 cluster: "AI Prompts"
 contentType: "prompt-guide"
 coverImage: "/images/posts/open-house-marketing-prompts-cover.webp"

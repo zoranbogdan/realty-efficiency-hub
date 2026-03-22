@@ -3,6 +3,7 @@ import { getCollection, render } from "astro:content";
 import MainLayout from "../../layouts/MainLayout.astro";
 import ContentTypeBadge from "../../components/ContentTypeBadge.astro";
 import { contentTypeMeta, type ContentType } from "../../lib/content-types";
+import { founder, organization, SITE_URL } from "../../lib/site";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
@@ -26,6 +27,59 @@ const relatedPosts = allPosts
 const { Content, headings } = await render(post);
 const contentType = post.data.contentType as ContentType;
 const faqItems = post.data.faq ?? [];
+const canonicalUrl = `${SITE_URL}/blog/${cleanSlug(post.id)}/`;
+const imageUrl = post.data.coverImage
+  ? new URL(post.data.coverImage, SITE_URL).toString()
+  : undefined;
+const authorName = post.data.author ?? founder.name;
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: post.data.pubDate.toISOString().slice(0, 10),
+  dateModified: (post.data.updatedDate ?? post.data.pubDate)
+    .toISOString()
+    .slice(0, 10),
+  mainEntityOfPage: canonicalUrl,
+  image: imageUrl ? [imageUrl] : undefined,
+  author: {
+    "@type": "Person",
+    name: authorName,
+    description: founder.description,
+    sameAs: founder.sameAs,
+  },
+  publisher: {
+    "@type": "Organization",
+    name: organization.name,
+    url: organization.url,
+    sameAs: organization.sameAs,
+  },
+};
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: SITE_URL,
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Blog",
+      item: `${SITE_URL}/blog/`,
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: post.data.title,
+      item: canonicalUrl,
+    },
+  ],
+};
 const faqSchema =
   faqItems.length > 0
     ? {
@@ -48,6 +102,8 @@ const faqSchema =
   description={post.data.description}
   image={post.data.coverImage}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   {faqSchema && (
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   )}
@@ -63,6 +119,8 @@ const faqSchema =
       <h1>{post.data.title}</h1>
 
       <div class="post-meta">
+        <span>{authorName}</span>
+        <span>•</span>
         <span>
           {post.data.pubDate.toLocaleDateString("en-US", {
             year: "numeric",
@@ -70,6 +128,23 @@ const faqSchema =
             day: "numeric",
           })}
         </span>
+        {(post.data.updatedDate ?? post.data.pubDate).getTime() !==
+          post.data.pubDate.getTime() && (
+          <>
+            <span>•</span>
+            <span>
+              Updated{" "}
+              {(post.data.updatedDate ?? post.data.pubDate).toLocaleDateString(
+                "en-US",
+                {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                }
+              )}
+            </span>
+          </>
+        )}
         <span>•</span>
         <span>{post.data.cluster}</span>
       </div>
@@ -94,6 +169,28 @@ const faqSchema =
 
     <section class="post-body">
       <Content />
+    </section>
+
+    <section class="author-box" aria-labelledby="author-box-title">
+      <p class="author-label" id="author-box-title">About the author</p>
+      <h2>{founder.name}</h2>
+      <p>
+        {founder.name} is the founder of 2B Consulting Services and Zoran.cloud,
+        where he builds practical automation systems using GoHighLevel, Make.com,
+        and CRM workflows for service businesses and real estate teams.
+      </p>
+      <p>
+        Realty Efficiency Hub focuses on actionable guidance for US realtors who
+        want cleaner follow-up, better lead handling, and more reliable marketing
+        operations.
+      </p>
+      <p class="author-links">
+        <a href="https://2bconsultingservices.com" rel="me">2B Consulting Services</a>
+        <span>·</span>
+        <a href="https://zoran.cloud" rel="me">Zoran.cloud</a>
+        <span>·</span>
+        <a href="/about">About Realty Efficiency Hub</a>
+      </p>
     </section>
 
     {relatedPosts.length > 0 && (
@@ -253,6 +350,52 @@ const faqSchema =
 
     .post-body {
       margin-top: 42px;
+    }
+
+    .author-box {
+      margin-top: 42px;
+      padding: 24px;
+      background: #f8fbff;
+      border: 1px solid #dbe4ee;
+      border-radius: 18px;
+    }
+
+    .author-label {
+      margin: 0 0 8px 0;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #1d4ed8;
+    }
+
+    .author-box h2 {
+      margin: 0 0 10px 0;
+      font-size: 24px;
+      color: #0f172a;
+    }
+
+    .author-box p {
+      margin: 0 0 12px 0;
+      color: #475569;
+      line-height: 1.75;
+    }
+
+    .author-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      font-weight: 600;
+    }
+
+    .author-links a {
+      color: #1d4ed8;
+      text-decoration: none;
+    }
+
+    .author-links a:hover {
+      text-decoration: underline;
     }
 
     .post-body h2 {

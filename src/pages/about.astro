@@ -1,8 +1,10 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
+import { founder } from "../lib/site";
 
 const title = "About | Realty Efficiency Hub";
-const description = "About Realty Efficiency Hub and our mission to help real estate professionals with AI and automation.";
+const description =
+  "About Realty Efficiency Hub, founded by Viorel Bogdan to help US real estate professionals improve operations with AI and automation.";
 ---
 
 <MainLayout title={title} description={description}>
@@ -11,21 +13,43 @@ const description = "About Realty Efficiency Hub and our mission to help real es
     <h1 style="font-size:40px;">About</h1>
 
     <p style="font-size:18px; line-height:1.7; color:#475569;">
-      Realty Efficiency Hub explores how artificial intelligence and automation
-      can transform the daily work of real estate professionals.
+      Realty Efficiency Hub was founded by {founder.name} to help US real estate
+      professionals build more reliable follow-up, cleaner CRM operations, and
+      better marketing systems using AI and automation.
     </p>
 
     <p style="font-size:18px; line-height:1.7; color:#475569;">
-      Our goal is simple: identify the tools, workflows, and systems that help
-      real estate teams operate more efficiently and close more deals while
-      saving time.
+      The site focuses on practical execution rather than abstract trend pieces.
+      The goal is to show what actually helps teams save time, respond faster,
+      and run more consistent workflows across lead capture, qualification,
+      routing, nurture, and conversion.
     </p>
 
     <p style="font-size:18px; line-height:1.7; color:#475569;">
-      We focus on practical insights: automation workflows, AI tools, CRM
-      integrations, and operational best practices used by modern real estate
-      teams.
+      That perspective comes from hands-on work in GoHighLevel, Make.com,
+      CRM design, and operational automation through 2B Consulting Services and
+      Zoran.cloud. Realty Efficiency Hub exists as a focused publishing hub for
+      the real estate side of that work.
     </p>
+
+    <p style="font-size:18px; line-height:1.7; color:#475569;">
+      Topics on the site include real estate AI prompts, automation workflows,
+      CRM systems, email and text follow-up structure, and practical operating
+      models for teams that need more execution consistency.
+    </p>
+
+    <div style="margin-top:32px; padding:24px; border:1px solid #dbe4ee; border-radius:18px; background:#f8fbff;">
+      <h2 style="margin-top:0; font-size:28px;">Related sites</h2>
+      <p style="font-size:17px; line-height:1.7; color:#475569;">
+        Realty Efficiency Hub is part of a broader consulting and automation
+        ecosystem led by {founder.name}.
+      </p>
+      <p style="font-size:17px; line-height:1.7;">
+        <a href="https://2bconsultingservices.com" rel="me">2B Consulting Services</a>
+        <span> · </span>
+        <a href="https://zoran.cloud" rel="me">Zoran.cloud</a>
+      </p>
+    </div>
 
   </section>
 </MainLayout>

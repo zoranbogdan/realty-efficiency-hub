@@ -2,7 +2,8 @@
 title: "25 Real Estate Follow-Up Text Message Prompts for ChatGPT (Copy & Paste)"
 description: "25 practical AI prompts real estate agents can use to generate effective follow-up text messages for leads, buyers, and open house visitors."
 pubDate: 2026-02-10
-author: "Realty Efficiency Hub"
+updatedDate: 2026-03-22
+author: "Viorel Bogdan"
 cluster: "AI Prompts"
 contentType: "prompt-guide"
 coverImage: "/images/posts/real-estate-follow-up-text-prompts-cover.webp"

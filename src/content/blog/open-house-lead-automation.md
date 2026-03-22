@@ -2,7 +2,8 @@
 title: "Open House Lead Automation Workflow: Complete Guide for Realtors"
 description: "Build an open house lead automation workflow that captures visitor data, segments follow-up, and improves appointment conversion without manual chaos."
 pubDate: 2026-03-13
-author: "Realty Efficiency Hub"
+updatedDate: 2026-03-22
+author: "Viorel Bogdan"
 cluster: "Automation Workflows"
 contentType: "workflow-guide"
 coverImage: "/images/posts/open-house-lead-automation-cover.webp"
