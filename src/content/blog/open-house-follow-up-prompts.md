@@ -2,7 +2,7 @@
 title: "25 Open House Follow-Up Prompts for ChatGPT (Copy & Paste)"
 description: "25 practical ChatGPT prompts real estate agents can use to write better open house follow-up emails, texts, and buyer messages in minutes."
 pubDate: 2026-02-17
-updatedDate: 2026-03-22
+updatedDate: 2026-03-27
 author: "Viorel Bogdan"
 cluster: "AI Prompts"
 contentType: "prompt-guide"

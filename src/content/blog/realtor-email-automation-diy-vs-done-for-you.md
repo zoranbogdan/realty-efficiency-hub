@@ -2,7 +2,7 @@
 title: "Realtor Email Automation: DIY CRM Workflow vs Done-For-You Setup"
 description: "Compare DIY and done-for-you realtor email automation setups by speed, cost, risk, and expected outcomes to choose the right implementation path."
 pubDate: 2026-03-02
-updatedDate: 2026-03-22
+updatedDate: 2026-03-27
 author: "Viorel Bogdan"
 cluster: "Automation Workflows"
 contentType: "comparison-article"

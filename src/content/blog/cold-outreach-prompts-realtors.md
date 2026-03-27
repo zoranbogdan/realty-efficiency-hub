@@ -2,7 +2,7 @@
 title: "25 Cold Outreach Prompts for Realtors (Copy & Paste)"
 description: "25 high-relevance AI cold outreach prompts for real estate agents to generate better emails, DMs, texts, and scripts that feel personal and ethical."
 pubDate: 2026-02-20
-updatedDate: 2026-03-22
+updatedDate: 2026-03-27
 author: "Viorel Bogdan"
 cluster: "AI Prompts"
 contentType: "prompt-guide"

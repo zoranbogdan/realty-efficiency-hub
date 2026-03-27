@@ -6,6 +6,9 @@ const outputFile = path.join(distDir, "sitemap.xml");
 const defaultSiteUrl = "https://realtyefficiencyhub.com";
 const siteUrl = (process.env.SITE_URL || defaultSiteUrl).replace(/\/+$/, "");
 const blogDir = path.resolve("src/content/blog");
+const today = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "Europe/Amsterdam",
+}).format(new Date());
 
 function readFrontmatterValue(frontmatter, key) {
   const match = frontmatter.match(new RegExp(`^${key}:\\s*(.+)$`, "m"));
@@ -13,26 +16,37 @@ function readFrontmatterValue(frontmatter, key) {
 }
 
 function getBlogLastModMap() {
-  if (!fs.existsSync(blogDir)) return new Map();
+  if (!fs.existsSync(blogDir)) {
+    return { lastModMap: new Map(), futurePaths: new Set() };
+  }
 
   const entries = fs
     .readdirSync(blogDir, { withFileTypes: true })
     .filter((entry) => entry.isFile() && entry.name.endsWith(".md"));
 
-  return new Map(
-    entries.map((entry) => {
-      const source = fs.readFileSync(path.join(blogDir, entry.name), "utf8");
-      const frontmatter = source.match(/^---\n([\s\S]*?)\n---/m)?.[1] ?? "";
-      const slug = entry.name.replace(/\.md$/, "");
-      const updatedDate = readFrontmatterValue(frontmatter, "updatedDate");
-      const pubDate = readFrontmatterValue(frontmatter, "pubDate");
+  const lastModMap = new Map();
+  const futurePaths = new Set();
 
-      return [`/blog/${slug}/`, updatedDate ?? pubDate ?? ""];
-    })
-  );
+  entries.forEach((entry) => {
+    const source = fs.readFileSync(path.join(blogDir, entry.name), "utf8");
+    const frontmatter = source.match(/^---\n([\s\S]*?)\n---/m)?.[1] ?? "";
+    const slug = entry.name.replace(/\.md$/, "");
+    const pubDate = readFrontmatterValue(frontmatter, "pubDate");
+    const urlPath = `/blog/${slug}/`;
+
+    if (pubDate && pubDate > today) {
+      futurePaths.add(urlPath);
+      return;
+    }
+
+    lastModMap.set(urlPath, pubDate ?? "");
+  });
+
+  return { lastModMap, futurePaths };
 }
 
-const blogLastModMap = getBlogLastModMap();
+const { lastModMap: blogLastModMap, futurePaths: futureBlogPaths } =
+  getBlogLastModMap();
 
 function walkHtmlFiles(dir) {
   const entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -84,6 +98,7 @@ if (!fs.existsSync(distDir)) {
 
 const htmlFiles = walkHtmlFiles(distDir)
   .filter((file) => !file.endsWith("/404.html"))
+  .filter((file) => !futureBlogPaths.has(normalizeUrlPath(fileToUrlPath(file))))
   .sort((a, b) => a.localeCompare(b));
 
 const urlEntries = htmlFiles.map((file) => {

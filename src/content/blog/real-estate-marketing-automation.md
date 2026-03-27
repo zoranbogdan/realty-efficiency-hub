@@ -2,7 +2,7 @@
 title: "Real Estate Marketing Automation Workflow: Complete Guide"
 description: "Build a real estate marketing automation workflow that connects campaigns, lead routing, nurture logic, and conversion reporting across channels."
 pubDate: 2026-03-17
-updatedDate: 2026-03-22
+updatedDate: 2026-03-27
 author: "Viorel Bogdan"
 cluster: "Automation Workflows"
 contentType: "workflow-guide"

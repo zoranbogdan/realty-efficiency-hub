@@ -2,7 +2,7 @@
 title: "Lead Qualification Automation for Realtors: Complete Workflow Guide"
 description: "Learn how to automate real estate lead qualification with practical scoring rules, routing logic, and CRM workflows that improve response quality and conversion."
 pubDate: 2026-03-10
-updatedDate: 2026-03-22
+updatedDate: 2026-03-27
 author: "Viorel Bogdan"
 cluster: "Automation Workflows"
 contentType: "workflow-guide"

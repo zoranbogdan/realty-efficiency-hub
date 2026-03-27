@@ -2,7 +2,7 @@
 title: "25 Real Estate Buyer Qualification Prompts (Copy & Paste)"
 description: "25 high-relevance buyer qualification prompts real estate agents can use with ChatGPT to assess timeline, financing, motivation, and fit faster."
 pubDate: 2026-02-24
-updatedDate: 2026-03-22
+updatedDate: 2026-03-27
 author: "Viorel Bogdan"
 cluster: "AI Prompts"
 contentType: "prompt-guide"

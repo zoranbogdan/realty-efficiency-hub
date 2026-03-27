@@ -2,7 +2,7 @@
 title: "25 High-Performance Real Estate Listing Prompts for ChatGPT"
 description: "25 expert-engineered ChatGPT prompts for real estate agents to generate high-converting property descriptions, social media content, and marketing bundles."
 pubDate: 2026-01-27
-updatedDate: 2026-03-22
+updatedDate: 2026-03-27
 author: "Viorel Bogdan"
 cluster: "AI Prompts"
 contentType: "prompt-guide"
