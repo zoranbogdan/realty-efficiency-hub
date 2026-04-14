@@ -49,7 +49,7 @@ const posts = (await getCollection("blog"))
             </p>
 
             <h2>
-              <a href={`/blog/${cleanSlug(post.id)}`}>{post.data.title}</a>
+              <a href={`/blog/${cleanSlug(post.id)}/`}>{post.data.title}</a>
             </h2>
 
             <p class="post-cluster">{post.data.cluster}</p>

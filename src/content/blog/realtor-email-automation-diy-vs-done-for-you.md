@@ -37,7 +37,7 @@ This comparison helps you choose the right path based on team capacity, risk tol
 
 ![Realtor Email Automation: DIY vs Done-For-You cover image](/images/posts/realtor-email-automation-diy-vs-done-for-you-cover.webp)
 
-If you want the short-form system overview first, see [Real Estate Email Automation](/solutions/real-estate-email-automation) before comparing implementation paths.
+If you want the short-form system overview first, see [Real Estate Email Automation](/solutions/real-estate-email-automation/) before comparing implementation paths.
 
 ---
 
@@ -246,7 +246,7 @@ If you want help deciding which model fits your team right now, schedule a consu
 
 ## Related Articles
 
-- [Automation Workflows Hub](/automation-workflows)
-- [Automating Realtor Email Follow-Ups](/blog/realtor-email-automation)
-- [Real Estate Lead Follow-Up Automation](/blog/real-estate-lead-follow-up-automation)
-- [Lead Qualification Automation for Realtors](/blog/real-estate-lead-qualification-automation)
+- [Automation Workflows Hub](/automation-workflows/)
+- [Automating Realtor Email Follow-Ups](/blog/realtor-email-automation/)
+- [Real Estate Lead Follow-Up Automation](/blog/real-estate-lead-follow-up-automation/)
+- [Lead Qualification Automation for Realtors](/blog/real-estate-lead-qualification-automation/)

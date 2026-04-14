@@ -30,7 +30,7 @@ Below you'll find **25 copy-paste open house marketing prompts** that real estat
 
 ![Open House Marketing Prompts cover image](/images/posts/open-house-marketing-prompts-cover.webp)
 
-If you want to connect pre-event promotion to post-event follow-up, start with [Open House Lead Automation](/solutions/open-house-lead-automation) for the bigger workflow context.
+If you want to connect pre-event promotion to post-event follow-up, start with [Open House Lead Automation](/solutions/open-house-lead-automation/) for the bigger workflow context.
 
 ---
 
@@ -1012,11 +1012,11 @@ Most agents begin marketing an open house **3–5 days before the event**.
 
 ## Related Articles
 
-- [Explore the full Real Estate AI Prompt Library](/ai-prompts)
-- [Open House Follow-Up Prompts](/blog/open-house-follow-up-prompts)
-- [Real Estate Email Prompts](/blog/real-estate-email-prompts)
-- [Real Estate Marketing Prompts](/blog/real-estate-marketing-prompts)
-- [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts)
-- [Open House Lead Automation Workflow](/blog/open-house-lead-automation)
+- [Explore the full Real Estate AI Prompt Library](/ai-prompts/)
+- [Open House Follow-Up Prompts](/blog/open-house-follow-up-prompts/)
+- [Real Estate Email Prompts](/blog/real-estate-email-prompts/)
+- [Real Estate Marketing Prompts](/blog/real-estate-marketing-prompts/)
+- [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts/)
+- [Open House Lead Automation Workflow](/blog/open-house-lead-automation/)
 
 ---

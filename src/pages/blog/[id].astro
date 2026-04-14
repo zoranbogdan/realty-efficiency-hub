@@ -189,7 +189,7 @@ const faqSchema =
         <span>·</span>
         <a href="https://zoran.cloud" rel="me">Zoran.cloud</a>
         <span>·</span>
-        <a href="/about">About Realty Efficiency Hub</a>
+        <a href="/about/">About Realty Efficiency Hub</a>
       </p>
     </section>
 
@@ -207,7 +207,7 @@ const faqSchema =
                 })}
               </p>
               <h3>
-                <a href={`/blog/${cleanSlug(item.id)}`}>{item.data.title}</a>
+                <a href={`/blog/${cleanSlug(item.id)}/`}>{item.data.title}</a>
               </h3>
               <p>{item.data.description}</p>
             </article>

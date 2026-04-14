@@ -29,7 +29,7 @@ A strong workflow gives you immediate capture, consistent segmentation, and time
 
 This guide explains how to design an automation system that turns open house traffic into measurable pipeline outcomes.
 
-For the broader workflow beyond open houses, see [Open House Lead Automation](/solutions/open-house-lead-automation) for the short-form solution page and [Real Estate Lead Follow-Up Automation](/solutions/real-estate-lead-follow-up-automation), which covers the core system this article plugs into.
+For the broader workflow beyond open houses, see [Open House Lead Automation](/solutions/open-house-lead-automation/) for the short-form solution page and [Real Estate Lead Follow-Up Automation](/solutions/real-estate-lead-follow-up-automation/), which covers the core system this article plugs into.
 
 ---
 
@@ -397,8 +397,8 @@ If you want help building this workflow inside your CRM and team process, schedu
 
 ## Related Workflow Guides
 
-- [Automation Workflows Hub](/automation-workflows)
-- [Real Estate Lead Follow-Up Automation](/blog/real-estate-lead-follow-up-automation)
-- [Lead Qualification Automation for Realtors](/blog/real-estate-lead-qualification-automation)
-- [Automating Realtor Email Follow-Ups](/blog/realtor-email-automation)
-- [Open House Follow-Up Prompts](/blog/open-house-follow-up-prompts)
+- [Automation Workflows Hub](/automation-workflows/)
+- [Real Estate Lead Follow-Up Automation](/blog/real-estate-lead-follow-up-automation/)
+- [Lead Qualification Automation for Realtors](/blog/real-estate-lead-qualification-automation/)
+- [Automating Realtor Email Follow-Ups](/blog/realtor-email-automation/)
+- [Open House Follow-Up Prompts](/blog/open-house-follow-up-prompts/)

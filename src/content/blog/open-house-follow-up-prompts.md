@@ -29,7 +29,7 @@ Below you'll find **25 copy-paste open house follow-up prompts** you can use rig
 
 ![Open House Follow-Up Prompts cover image](/images/posts/open-house-follow-up-prompts-cover.webp)
 
-If you want the full workflow behind these prompts, start with [Open House Lead Automation](/solutions/open-house-lead-automation) before using the templates below.
+If you want the full workflow behind these prompts, start with [Open House Lead Automation](/solutions/open-house-lead-automation/) before using the templates below.
 
 ---
 
@@ -781,10 +781,10 @@ Yes. AI can generate follow-up emails, texts, and nurture messages when provided
 
 ## Related Articles
 
-- [Explore the full Real Estate AI Prompt Library](/ai-prompts)
-- [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts)
-- [Real Estate Email Prompts](/blog/real-estate-email-prompts)
-- [Real Estate CRM Automation](/solutions/real-estate-crm-automation)
-- [Open House Lead Automation Workflow](/blog/open-house-lead-automation)
+- [Explore the full Real Estate AI Prompt Library](/ai-prompts/)
+- [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts/)
+- [Real Estate Email Prompts](/blog/real-estate-email-prompts/)
+- [Real Estate CRM Automation](/solutions/real-estate-crm-automation/)
+- [Open House Lead Automation Workflow](/blog/open-house-lead-automation/)
 
 ---

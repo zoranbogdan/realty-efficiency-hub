@@ -51,7 +51,7 @@ const workflowPosts = (await getCollection("blog"))
           </div>
 
           <h3>
-            <a href={`/blog/${cleanSlug(post.id)}`}>{post.data.title}</a>
+            <a href={`/blog/${cleanSlug(post.id)}/`}>{post.data.title}</a>
           </h3>
 
           <p class="post-description">{post.data.description}</p>

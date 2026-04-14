@@ -969,11 +969,11 @@ No. AI should be used to generate drafts, but the final post should be reviewed 
 
 ## Related Articles
 
-- [Explore the full Real Estate AI Prompt Library](/ai-prompts)
-- [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts)
-- [Real Estate Email Prompts](/blog/real-estate-email-prompts)
-- [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts)
-- [Real Estate Marketing Prompts](/blog/real-estate-marketing-prompts)
-- [Cold Outreach Prompts for Realtors](/blog/cold-outreach-prompts-realtors)
+- [Explore the full Real Estate AI Prompt Library](/ai-prompts/)
+- [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts/)
+- [Real Estate Email Prompts](/blog/real-estate-email-prompts/)
+- [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts/)
+- [Real Estate Marketing Prompts](/blog/real-estate-marketing-prompts/)
+- [Cold Outreach Prompts for Realtors](/blog/cold-outreach-prompts-realtors/)
 
 ---

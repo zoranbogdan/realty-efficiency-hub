@@ -76,7 +76,7 @@ const clusterFilters = ["AI Prompts", "Automation Workflows"];
           </p>
 
           <h2>
-            <a href={`/blog/${cleanSlug(post.id)}`}>{post.data.title}</a>
+            <a href={`/blog/${cleanSlug(post.id)}/`}>{post.data.title}</a>
           </h2>
 
           <p class="type-hint">{contentTypeMeta[post.data.contentType as ContentType].bestFor}</p>

@@ -136,7 +136,7 @@ Teams with lead leakage, slow first response, or inconsistent handoffs should pr
 
 Do not start with advanced scoring models. Start with basic routing, immediate acknowledgment, and clean stop rules.
 
-For implementation details, see [AI Client Follow-Up System](/blog/ai-client-follow-up-system).
+For implementation details, see [AI Client Follow-Up System](/blog/ai-client-follow-up-system/).
 
 ---
 
@@ -401,7 +401,7 @@ If you want a tailored tool stack with implementation priorities and vendor fit,
 ## Related Articles
 
 - [AI Tools Hub](/ai-tools)
-- [AI Listing Description Tools](/blog/ai-listing-description-tools)
-- [AI Lead Generation Tools](/blog/ai-lead-generation-tools)
-- [AI Client Follow-Up System](/blog/ai-client-follow-up-system)
-- [Real Estate Lead Follow-Up Automation](/blog/real-estate-lead-follow-up-automation)
+- [AI Listing Description Tools](/blog/ai-listing-description-tools/)
+- [AI Lead Generation Tools](/blog/ai-lead-generation-tools/)
+- [AI Client Follow-Up System](/blog/ai-client-follow-up-system/)
+- [Real Estate Lead Follow-Up Automation](/blog/real-estate-lead-follow-up-automation/)

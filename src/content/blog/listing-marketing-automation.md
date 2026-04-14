@@ -38,7 +38,7 @@ A good system ensures every listing launches with consistent quality, channel co
 
 This guide shows how to build a repeatable listing marketing workflow from intake through performance optimization.
 
-For the higher-level operating model behind this topic, see [Real Estate Marketing Automation](/solutions/real-estate-marketing-automation) first and then use this article for the listing-specific version.
+For the higher-level operating model behind this topic, see [Real Estate Marketing Automation](/solutions/real-estate-marketing-automation/) first and then use this article for the listing-specific version.
 
 ---
 
@@ -464,7 +464,7 @@ If you want this customized for your listing volume and team structure, schedule
 
 ## Related Articles
 
-- [Automation Workflows Hub](/automation-workflows)
-- [Open House Lead Automation Workflow](/blog/open-house-lead-automation)
-- [Real Estate Marketing Automation Workflow](/blog/real-estate-marketing-automation)
-- [Real Estate Lead Follow-Up Automation](/blog/real-estate-lead-follow-up-automation)
+- [Automation Workflows Hub](/automation-workflows/)
+- [Open House Lead Automation Workflow](/blog/open-house-lead-automation/)
+- [Real Estate Marketing Automation Workflow](/blog/real-estate-marketing-automation/)
+- [Real Estate Lead Follow-Up Automation](/blog/real-estate-lead-follow-up-automation/)

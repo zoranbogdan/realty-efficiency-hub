@@ -29,7 +29,7 @@ This article explains how to build a production-ready email automation workflow 
 
 ![Automating Realtor Email Follow-Ups cover image](/images/posts/realtor-email-automation-cover.webp)
 
-If your bigger goal is improving response timing and nurture across channels, start with the summary page on [Real Estate Lead Follow-Up Automation](/solutions/real-estate-lead-follow-up-automation) and then use this article for the email layer.
+If your bigger goal is improving response timing and nurture across channels, start with the summary page on [Real Estate Lead Follow-Up Automation](/solutions/real-estate-lead-follow-up-automation/) and then use this article for the email layer.
 
 ---
 
@@ -395,8 +395,8 @@ If you want help implementing this end-to-end inside your current CRM stack, boo
 
 ## Related Workflow Guides
 
-- [Automation Workflows Hub](/automation-workflows)
-- [Real Estate Lead Follow-Up Automation](/blog/real-estate-lead-follow-up-automation)
-- [Real Estate Lead Qualification Automation](/blog/real-estate-lead-qualification-automation)
-- [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts)
-- [Real Estate Email Prompts](/blog/real-estate-email-prompts)
+- [Automation Workflows Hub](/automation-workflows/)
+- [Real Estate Lead Follow-Up Automation](/blog/real-estate-lead-follow-up-automation/)
+- [Real Estate Lead Qualification Automation](/blog/real-estate-lead-qualification-automation/)
+- [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts/)
+- [Real Estate Email Prompts](/blog/real-estate-email-prompts/)

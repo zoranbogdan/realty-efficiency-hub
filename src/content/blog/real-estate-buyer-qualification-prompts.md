@@ -25,7 +25,7 @@ Below are **25 copy-paste buyer qualification prompts for real estate agents**. 
 
 ![Real estate buyer qualification prompts cover image with structured scoring and decision workflow style](/images/posts/real-estate-buyer-qualification-prompts-cover.webp)
 
-If you want the system behind these prompts, start with [Real Estate Lead Qualification Automation](/solutions/real-estate-lead-qualification-automation) before diving into the templates.
+If you want the system behind these prompts, start with [Real Estate Lead Qualification Automation](/solutions/real-estate-lead-qualification-automation/) before diving into the templates.
 
 ---
 
@@ -616,8 +616,8 @@ No. AI can structure stronger scripts and follow-up, but agents still need live 
 
 ## Related Articles
 
-- [Explore the full Real Estate AI Prompt Library](/ai-prompts)
-- [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts)
-- [Real Estate Email Prompts](/blog/real-estate-email-prompts)
-- [Cold Outreach Prompts for Realtors](/blog/cold-outreach-prompts-realtors)
-- [Real Estate CRM Automation](/solutions/real-estate-crm-automation)
+- [Explore the full Real Estate AI Prompt Library](/ai-prompts/)
+- [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts/)
+- [Real Estate Email Prompts](/blog/real-estate-email-prompts/)
+- [Cold Outreach Prompts for Realtors](/blog/cold-outreach-prompts-realtors/)
+- [Real Estate CRM Automation](/solutions/real-estate-crm-automation/)

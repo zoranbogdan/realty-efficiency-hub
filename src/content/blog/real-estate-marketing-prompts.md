@@ -29,7 +29,7 @@ Below you'll find **25 copy-paste real estate marketing prompts** you can use im
 
 ![Real Estate Marketing Prompts cover image](/images/posts/real-estate-marketing-prompts-cover.webp)
 
-If you are trying to connect prompts to a real campaign system, start with [Real Estate Marketing Automation](/solutions/real-estate-marketing-automation) for the bigger workflow context.
+If you are trying to connect prompts to a real campaign system, start with [Real Estate Marketing Automation](/solutions/real-estate-marketing-automation/) for the bigger workflow context.
 
 ---
 
@@ -951,11 +951,11 @@ No. AI can speed up content creation, but the strategy, targeting, and final jud
 
 ## Related Articles
 
-- [Explore the full Real Estate AI Prompt Library](/ai-prompts)
-- [Social Media Prompts for Realtors](/blog/social-media-prompts-realtors)
-- [Real Estate Email Prompts](/blog/real-estate-email-prompts)
-- [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts)
-- [Real Estate CRM Automation](/solutions/real-estate-crm-automation)
-- [Automating Realtor Email Follow-Ups](/blog/realtor-email-automation)
+- [Explore the full Real Estate AI Prompt Library](/ai-prompts/)
+- [Social Media Prompts for Realtors](/blog/social-media-prompts-realtors/)
+- [Real Estate Email Prompts](/blog/real-estate-email-prompts/)
+- [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts/)
+- [Real Estate CRM Automation](/solutions/real-estate-crm-automation/)
+- [Automating Realtor Email Follow-Ups](/blog/realtor-email-automation/)
 
 ---

@@ -33,7 +33,7 @@ This guide shows how to build a reliable lead qualification system for real esta
 
 ![Lead Qualification Automation for Realtors cover image](/images/posts/real-estate-lead-qualification-automation-cover.webp)
 
-For the bigger operating model around routing, tasking, and stage control, see [Real Estate CRM Automation](/solutions/real-estate-crm-automation) before diving deeper into qualification logic here.
+For the bigger operating model around routing, tasking, and stage control, see [Real Estate CRM Automation](/solutions/real-estate-crm-automation/) before diving deeper into qualification logic here.
 
 ---
 
@@ -493,8 +493,8 @@ If you want help implementing this with your current CRM and lead sources, book 
 
 ## Related Workflow Guides
 
-- [Automation Workflows Hub](/automation-workflows)
-- [Real Estate Lead Follow-Up Automation](/blog/real-estate-lead-follow-up-automation)
-- [Automating Realtor Email Follow-Ups](/blog/realtor-email-automation)
-- [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts)
-- [Real Estate Buyer Qualification Prompts](/blog/real-estate-buyer-qualification-prompts)
+- [Automation Workflows Hub](/automation-workflows/)
+- [Real Estate Lead Follow-Up Automation](/blog/real-estate-lead-follow-up-automation/)
+- [Automating Realtor Email Follow-Ups](/blog/realtor-email-automation/)
+- [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts/)
+- [Real Estate Buyer Qualification Prompts](/blog/real-estate-buyer-qualification-prompts/)

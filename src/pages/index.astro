@@ -15,12 +15,12 @@ const activeTypes = contentTypes.filter((type) =>
 );
 
 const typePathMap: Record<ContentType, string> = {
-  "prompt-guide": "/prompt-guides",
-  "workflow-guide": "/workflow-guides",
-  "system-guide": "/system-guides",
-  "comparison-article": "/comparison-articles",
-  guide: "/guides",
-  "tool-review": "/tool-reviews",
+  "prompt-guide": "/prompt-guides/",
+  "workflow-guide": "/workflow-guides/",
+  "system-guide": "/system-guides/",
+  "comparison-article": "/comparison-articles/",
+  guide: "/guides/",
+  "tool-review": "/tool-reviews/",
 };
 
 const latestPosts = posts
@@ -30,19 +30,19 @@ const latestPosts = posts
 const solutions = [
   {
     title: "Lead Follow-Up Automation",
-    href: "/solutions/real-estate-lead-follow-up-automation",
+    href: "/solutions/real-estate-lead-follow-up-automation/",
     description:
       "For teams that need faster speed-to-lead, clearer handoff, and more consistent multi-channel follow-up.",
   },
   {
     title: "CRM Automation",
-    href: "/solutions/real-estate-crm-automation",
+    href: "/solutions/real-estate-crm-automation/",
     description:
       "For teams that want cleaner routing, stage management, and less manual CRM overhead.",
   },
   {
     title: "Marketing Automation",
-    href: "/solutions/real-estate-marketing-automation",
+    href: "/solutions/real-estate-marketing-automation/",
     description:
       "For teams that need campaign execution, nurture timing, and reporting connected to real pipeline outcomes.",
   },
@@ -62,8 +62,8 @@ const solutions = [
   </p>
 
   <div class="hero-actions">
-    <a href="/solutions" class="primary-cta">Explore Solutions</a>
-    <a href="/start-here" class="secondary-cta">Browse by Content Type</a>
+    <a href="/solutions/" class="primary-cta">Explore Solutions</a>
+    <a href="/start-here/" class="secondary-cta">Browse by Content Type</a>
   </div>
 </section>
 
@@ -78,7 +78,7 @@ const solutions = [
     ))}
   </div>
   <div class="solutions-cta-wrap">
-    <a href="/solutions" class="solutions-cta">View All Solutions</a>
+    <a href="/solutions/" class="solutions-cta">View All Solutions</a>
   </div>
 </section>
 
@@ -108,7 +108,7 @@ const solutions = [
         </div>
         <h3 class="latest-title">
           <a
-            href={`/blog/${cleanSlug(post.id)}`}
+            href={`/blog/${cleanSlug(post.id)}/`}
             class="latest-link"
           >
             {post.data.title}

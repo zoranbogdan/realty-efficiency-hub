@@ -674,7 +674,7 @@ Using the provided details, generate a cohesive 4-part marketing "Bundle":
 
 * **Avoid the "Hallucination":** Always double-check that the AI didn't "invent" a fireplace or a finished basement that doesn't exist.
 * **Fair Housing Compliance:** Ensure your descriptions focus on the property and neighborhood amenities rather than protected classes.
-* **Internal Linking:** Now that you have your description, check out our [Cold Outreach Prompts for Realtors](/blog/cold-outreach-prompts-realtors) to find your next lead.
+* **Internal Linking:** Now that you have your description, check out our [Cold Outreach Prompts for Realtors](/blog/cold-outreach-prompts-realtors/) to find your next lead.
 
 ---
 
@@ -690,9 +690,9 @@ Most MLS platforms have a character limit, but a standard effective description 
 
 ## Related Articles
 
-- [Explore the full Real Estate AI Prompt Library](/ai-prompts)
-- [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts)
-- [Real Estate Email Prompts](/blog/real-estate-email-prompts)
-- [Social Media Prompts for Realtors](/blog/social-media-prompts-realtors)
-- [Open House Follow-Up Prompts](/blog/open-house-follow-up-prompts)
-- [Property Tour Script Prompts](/blog/property-tour-script-prompts)
+- [Explore the full Real Estate AI Prompt Library](/ai-prompts/)
+- [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts/)
+- [Real Estate Email Prompts](/blog/real-estate-email-prompts/)
+- [Social Media Prompts for Realtors](/blog/social-media-prompts-realtors/)
+- [Open House Follow-Up Prompts](/blog/open-house-follow-up-prompts/)
+- [Property Tour Script Prompts](/blog/property-tour-script-prompts/)

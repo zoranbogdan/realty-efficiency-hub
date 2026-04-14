@@ -32,7 +32,7 @@ Below you'll find **25 copy-paste prompts** real estate agents can use to genera
 
 ![Real Estate Follow-Up Text Prompts cover image](/images/posts/real-estate-follow-up-text-prompts-cover.webp)
 
-If you want to see how these prompts fit into the bigger workflow, start with [Real Estate Lead Follow-Up Automation](/solutions/real-estate-lead-follow-up-automation) for the condensed system overview.
+If you want to see how these prompts fit into the bigger workflow, start with [Real Estate Lead Follow-Up Automation](/solutions/real-estate-lead-follow-up-automation/) for the condensed system overview.
 
 ---
 
@@ -924,11 +924,11 @@ Ideally within minutes or hours of the initial inquiry.
 
 ## Related Articles
 
-- [Explore the full Real Estate AI Prompt Library](/ai-prompts)
-- [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts)
-- [Open House Marketing Prompts](/blog/open-house-marketing-prompts)
-- [Open House Follow-Up Prompts](/blog/open-house-follow-up-prompts)
-- [Real Estate CRM Automation](/solutions/real-estate-crm-automation)
-- [Real Estate Lead Follow-Up Automation](/blog/real-estate-lead-follow-up-automation)
+- [Explore the full Real Estate AI Prompt Library](/ai-prompts/)
+- [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts/)
+- [Open House Marketing Prompts](/blog/open-house-marketing-prompts/)
+- [Open House Follow-Up Prompts](/blog/open-house-follow-up-prompts/)
+- [Real Estate CRM Automation](/solutions/real-estate-crm-automation/)
+- [Real Estate Lead Follow-Up Automation](/blog/real-estate-lead-follow-up-automation/)
 
 ---

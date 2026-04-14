@@ -281,6 +281,6 @@ If you want tool affiliate recommendations based on your listing volume and team
 ## Related Articles
 
 - [AI Tools Hub](/ai-tools)
-- [Best AI Tools for Real Estate Agents](/blog/best-ai-tools-real-estate)
-- [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts)
-- [Real Estate Marketing Prompts](/blog/real-estate-marketing-prompts)
+- [Best AI Tools for Real Estate Agents](/blog/best-ai-tools-real-estate/)
+- [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts/)
+- [Real Estate Marketing Prompts](/blog/real-estate-marketing-prompts/)

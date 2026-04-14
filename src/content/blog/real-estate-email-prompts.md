@@ -29,7 +29,7 @@ Below you'll find **25 copy-paste real estate email prompts** you can use right 
 
 ![Real Estate Email Prompts cover image](/images/posts/real-estate-email-prompts-cover.webp)
 
-If you want the bigger operating model behind these prompts, start with [Real Estate Email Automation](/solutions/real-estate-email-automation) before using the templates below.
+If you want the bigger operating model behind these prompts, start with [Real Estate Email Automation](/solutions/real-estate-email-automation/) before using the templates below.
 
 ---
 
@@ -1002,11 +1002,11 @@ No. AI can save time, but the final email should always be reviewed for accuracy
 
 ## Related Articles
 
-- [Explore the full Real Estate AI Prompt Library](/ai-prompts)
-- [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts)
-- [Open House Follow-Up Prompts](/blog/open-house-follow-up-prompts)
-- [Social Media Prompts for Realtors](/blog/social-media-prompts-realtors)
-- [Real Estate CRM Automation](/solutions/real-estate-crm-automation)
-- [Automating Realtor Email Follow-Ups](/blog/realtor-email-automation)
+- [Explore the full Real Estate AI Prompt Library](/ai-prompts/)
+- [Real Estate Listing Description Prompts](/blog/real-estate-listing-description-prompts/)
+- [Open House Follow-Up Prompts](/blog/open-house-follow-up-prompts/)
+- [Social Media Prompts for Realtors](/blog/social-media-prompts-realtors/)
+- [Real Estate CRM Automation](/solutions/real-estate-crm-automation/)
+- [Automating Realtor Email Follow-Ups](/blog/realtor-email-automation/)
 
 ---

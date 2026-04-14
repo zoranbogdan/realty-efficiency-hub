@@ -29,7 +29,7 @@ This guide shows you how to build a practical automation system that is fast, co
 
 ![Real Estate Lead Follow-Up Automation cover image](/images/posts/real-estate-lead-follow-up-automation-cover.webp)
 
-If you want the condensed version first, see [Real Estate Lead Follow-Up Automation](/solutions/real-estate-lead-follow-up-automation) for the short-form solution page before diving into the full workflow.
+If you want the condensed version first, see [Real Estate Lead Follow-Up Automation](/solutions/real-estate-lead-follow-up-automation/) for the short-form solution page before diving into the full workflow.
 
 ---
 
@@ -413,8 +413,8 @@ If your team wants help designing or rebuilding this workflow end-to-end, schedu
 
 ## Related Workflow Guides
 
-- [Automation Workflows Hub](/automation-workflows)
-- [Realtor Email Automation](/blog/realtor-email-automation)
-- [Real Estate Lead Qualification Automation](/blog/real-estate-lead-qualification-automation)
-- [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts)
-- [Cold Outreach Prompts for Realtors](/blog/cold-outreach-prompts-realtors)
+- [Automation Workflows Hub](/automation-workflows/)
+- [Realtor Email Automation](/blog/realtor-email-automation/)
+- [Real Estate Lead Qualification Automation](/blog/real-estate-lead-qualification-automation/)
+- [Real Estate Follow-Up Text Prompts](/blog/real-estate-follow-up-text-prompts/)
+- [Cold Outreach Prompts for Realtors](/blog/cold-outreach-prompts-realtors/)

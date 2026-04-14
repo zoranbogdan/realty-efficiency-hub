@@ -248,7 +248,7 @@ If you want a custom decision map for your team, schedule a consulting call and 
 
 ## Related Articles
 
-- [Automation Workflows Hub](/automation-workflows)
-- [Real Estate Lead Follow-Up Automation](/blog/real-estate-lead-follow-up-automation)
-- [Lead Qualification Automation for Realtors](/blog/real-estate-lead-qualification-automation)
-- [Automating Realtor Email Follow-Ups](/blog/realtor-email-automation)
+- [Automation Workflows Hub](/automation-workflows/)
+- [Real Estate Lead Follow-Up Automation](/blog/real-estate-lead-follow-up-automation/)
+- [Lead Qualification Automation for Realtors](/blog/real-estate-lead-qualification-automation/)
+- [Automating Realtor Email Follow-Ups](/blog/realtor-email-automation/)
